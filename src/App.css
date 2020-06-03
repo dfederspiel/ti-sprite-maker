@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "TI";
+  src: url(./ti-1.ttf) format("truetype");
+}
+body { font-family: "TI", sans-serif }
+
 .App {
   text-align: center;
 }
