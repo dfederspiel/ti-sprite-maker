@@ -2,7 +2,7 @@
   font-family: "TI";
   src: url(./ti-1.ttf) format("truetype");
 }
-body { font-family: "TI", sans-serif }
+body { color: 'black'; font-family: "TI", sans-serif }
 
 .App {
   text-align: center;
@@ -20,14 +20,13 @@ body { font-family: "TI", sans-serif }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #40f0f0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

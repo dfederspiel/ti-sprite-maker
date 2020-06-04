@@ -15,6 +15,9 @@ const Block = (props) => {
       onClick={() => {
         props.clicked()
       }}
+      onMouseOver={() => {
+          props.clicked()
+      }}
     ></div>
   );
 };

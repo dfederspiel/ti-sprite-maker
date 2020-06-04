@@ -55,28 +55,36 @@ const SpriteMaker = () => {
   };
   return (
     <>
-      <div>TI-99/4a Sprite Maker</div>
-      <div>CALL CHAR(123, "{getHex(blocks)}")</div>
       <ColorPicker onColorChange={(color) => setColor(color)} />
-      {blocks &&
-        blocks.map((row, r) => (
-          <div
-            key={r}
-            style={{
-              display: "flex",
-            }}
-          >
-            {row &&
-              row.map((cell, c) => (
-                <Block
-                  key={`${r}-${c}`}
-                  state={cell}
-                  color={color}
-                  clicked={() => updateGrid(r, c)}
-                />
-              ))}
-          </div>
-        ))}
+      <div
+        style={{
+          justifyContent: "center",
+        }}
+      >
+        <div>TI-99/4a Sprite Maker</div>
+        <div>CALL CHAR(123, "{getHex(blocks)}")</div>
+        {blocks &&
+          blocks.map((row, r) => (
+            <div
+              key={r}
+              style={{
+                display: "flex",
+                justifyContent: "center"
+              }}
+            >
+              {row &&
+                row.map((cell, c) => (
+                  <Block
+                    key={`${r}-${c}`}
+                    state={cell}
+                    color={color}
+                    clicked={() => updateGrid(r, c)}
+                  />
+                ))}
+            </div>
+          ))}
+      </div>
+      <ColorPicker onColorChange={(color) => setColor(color)} />
     </>
   );
 };

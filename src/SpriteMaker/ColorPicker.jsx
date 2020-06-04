@@ -25,7 +25,7 @@ const ColorPicker = (props) => {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
-        maxWidth: "400px",
+        width: "100%",
       }}
     >
       {colors.map((color, i) => (
@@ -36,15 +36,13 @@ const ColorPicker = (props) => {
             justifyContent: "center",
             alignItems: "center",
             fontSize: "16px",
-            width: "20px",
-            height: "20px",
-            padding: "10px",
-            margin: "5px",
+            width: `${100/15}%`,
+            height: `75px`,
             backgroundColor: `#${color.hex}`,
           }}
           onClick={() => props.onColorChange(color.hex)}
         >
-          {/* {color.name} */}
+          {color.name}
         </div>
       ))}
     </div>
