@@ -1,4 +1,16 @@
 import React from "react";
+import styled from 'styled-components'
+
+const StyledColorTile = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: ${100/15}%;
+    height: 75px;
+    background-color: #${props => props.hex};
+    flex: 1 1 20%;
+`;
 
 const ColorPicker = (props) => {
   const colors = [
@@ -29,21 +41,12 @@ const ColorPicker = (props) => {
       }}
     >
       {colors.map((color, i) => (
-        <div
+        <StyledColorTile hex={color.hex}
           key={i}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: "16px",
-            width: `${100/15}%`,
-            height: `75px`,
-            backgroundColor: `#${color.hex}`,
-          }}
           onClick={() => props.onColorChange(color.hex)}
         >
-          {color.name}
-        </div>
+          {/* {color.name} */}
+        </StyledColorTile>
       ))}
     </div>
   );
