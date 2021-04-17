@@ -1,5 +1,5 @@
 # TI Sprite Maker
-Way back when, my first computer was TI-99
+Way back when, my first computer was TI-99 4/a
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
