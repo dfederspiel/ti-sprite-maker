@@ -4,9 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <SpriteMaker />
+    <div className="app">
+      <header className="app-header">
+        <SpriteMaker hex="00995a3c3c3c2424" />
       </header>
     </div>
   );

@@ -9,7 +9,7 @@ import {
 
 const SpriteMaker = () => {
   const [blocks, setBlocks] = useState(
-    JSON.parse(localStorage.getItem("1")) || defaultGrid
+    JSON.parse(localStorage.getItem("ti99-matrix")) || defaultGrid
   );
   const [color, setColor] = useState("000000");
 

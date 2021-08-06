@@ -1,8 +1,30 @@
-# TI Sprite Maker
-Way back when, my first computer was TI-99
+# TI-99/4A Sprite Maker
+Visual HEX encoder for ASCII character mapping on the TI-99/4A 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![TI-99/4A Sprite Maker](/TI-99.png)
 
+## Usage
+
+Clone and run the following:
+```
+yarn install
+yarn start
+```
+
+Access the app in your browser [http://localhost:3000](http://localhost:3000)
+
+Click on a square to toggle it on or off. This will automatically update the hex value in the `CALL CHAR` command above the tile. A copy of the current matrix is kept in local storage.
+
+## About
+My family inherited our first computer when I was a kid. It wasn't anything to write home about, and nobody in my family knew what to do with it (it was subpar even for the computing standards of the time). It did, however, come with a couple manuals on programming in TI-Basic that caught my attention.
+
+With nothing but time and curiosity, I quickly found myself spending **many** days of the summer reading and re-creating examples printed in the manuals. It was my first introduction to programming, and as an aspiring video game developer, I was hooked.
+
+One particularly fascinating aspect of the language was its graphics library. It wasn't so easy to create them, and I used up a LOT of graphing paper, sketching out pixelated sprites on a 16x16 grid, dividing them up into 4-bit binary values and converting that to the 16-character HEX value that was need to replace a single character in the ASCII set... It was a bit much.
+
+Anyway, I downloaded the very clever [TI-99/4A emulator](https://www.99er.net/emul.shtml) and was quickly reminded of why photoshop should be a wonder of the modern world. Instead of going down the graphing paper rabbit hole of my youth, I figured I'd pay a tribute to the good old days, and make visual helper to create the HEX maps in a more environmentally friendly way.
+
+It was a fun little weekend project, and I don't plan on writing much TI-Basic in the future. Revisiting it was just as nostalgic as it was painful, and I'm proud of how far we've come. 🚀
 ## Available Scripts
 
 In the project directory, you can run:
