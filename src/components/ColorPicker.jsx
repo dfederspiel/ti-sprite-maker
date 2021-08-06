@@ -48,7 +48,7 @@ const ColorPicker = (props) => {
           hex={color.hex}
           key={i}
           onClick={() => props.onColorChange(color.hex)}
-        ></StyledColorTile>
+        >{color.name}</StyledColorTile>
       ))}
     </div>
   );
