@@ -1,4 +1,5 @@
 # TI-99/4A Sprite Maker
+![build status](https://github.com/dfederspiel/ti-sprite-maker/actions/workflows/azure-static-web-apps-proud-hill-0971b0010.yml/badge.svg)  
 Visual HEX encoder for ASCII character mapping on the TI-99/4A 
 
 ![TI-99/4A Sprite Maker](/TI-99.png)
