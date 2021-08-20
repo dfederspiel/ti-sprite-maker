@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import Block from './Block';
 import ColorPicker from '../ColorPicker';
@@ -26,7 +27,7 @@ const SpriteMaker = () => {
 
   return (
     <>
-      <ColorPicker onColorChange={(color) => setColor(color)} />
+      <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
       <div
         style={{
           justifyContent: 'center',
@@ -62,7 +63,7 @@ const SpriteMaker = () => {
             ))}
         </div>
       </div>
-      <ColorPicker onColorChange={(color) => setColor(color)} />
+      <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
     </>
   );
 };

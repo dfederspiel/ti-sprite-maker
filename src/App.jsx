@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpriteMaker } from './components/SpriteMaker';
+import SpriteMaker from './components/SpriteMaker';
 import './App.css';
 
 function App() {

@@ -1,3 +1,3 @@
-import SpriteMaker from "./SpriteMaker";
+import SpriteMaker from './SpriteMaker';
 
-export { SpriteMaker };
+export default SpriteMaker;

@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Block = ({ color, state, clicked }) => (
-  <div
-    role="gridcell"
+  // eslint-disable-next-line jsx-a11y/control-has-associated-label
+  <button
+    type="button"
     data-testid="block"
     style={{
+      border: 'none',
       backgroundColor: state ? `#${color}` : 'white',
       width: '30px',
       height: '30px',
