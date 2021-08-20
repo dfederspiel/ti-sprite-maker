@@ -1,7 +1,5 @@
 import React from 'react';
 
-const MenuStrip = () => {
-    return <></>
-}
+const MenuStrip = () => <></>;
 
 export default MenuStrip;
