@@ -1,6 +1,6 @@
 import React from 'react';
 import { act, fireEvent, render } from '@testing-library/react';
-import Block from './Block';
+import Block from '../Block';
 
 describe('the block', () => {
   it('defaults to off', () => {

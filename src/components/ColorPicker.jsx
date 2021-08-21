@@ -46,6 +46,7 @@ const ColorPicker = (props) => (
   >
     {colors.map((color) => (
       <StyledColorTile
+        data-testid="tile"
         hex={color.hex}
         key={nanoid()}
         onClick={() => props.onColorChange(color.hex)}
@@ -57,6 +58,11 @@ const ColorPicker = (props) => (
 );
 
 ColorPicker.propTypes = {
+  /**
+   * callback that returns the hex string
+   * @param callback
+   * @returns string
+   */
   onColorChange: PropTypes.func,
 };
 
