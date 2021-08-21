@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the color picker renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+  >
+    <div
+      class="sc-bdnxRM ezOA-DC"
+      data-testid="tile"
+    >
+      Black
+    </div>
+    <div
+      class="sc-bdnxRM kHtVIg"
+      data-testid="tile"
+    >
+      Green
+    </div>
+    <div
+      class="sc-bdnxRM hyvUXK"
+      data-testid="tile"
+    >
+      Light Green
+    </div>
+    <div
+      class="sc-bdnxRM jewkvC"
+      data-testid="tile"
+    >
+      Blue
+    </div>
+    <div
+      class="sc-bdnxRM cHGNMV"
+      data-testid="tile"
+    >
+      Light Blue
+    </div>
+    <div
+      class="sc-bdnxRM bEZCXZ"
+      data-testid="tile"
+    >
+      Dark Red
+    </div>
+    <div
+      class="sc-bdnxRM xOTOI"
+      data-testid="tile"
+    >
+      Cyan
+    </div>
+    <div
+      class="sc-bdnxRM iliNdy"
+      data-testid="tile"
+    >
+      Red
+    </div>
+    <div
+      class="sc-bdnxRM hdTmhv"
+      data-testid="tile"
+    >
+      Light Red
+    </div>
+    <div
+      class="sc-bdnxRM hJQeXp"
+      data-testid="tile"
+    >
+      Dark Yellow
+    </div>
+    <div
+      class="sc-bdnxRM dXiCqD"
+      data-testid="tile"
+    >
+      Light Yellow
+    </div>
+    <div
+      class="sc-bdnxRM kPwkwO"
+      data-testid="tile"
+    >
+      Dark Green
+    </div>
+    <div
+      class="sc-bdnxRM cytiDk"
+      data-testid="tile"
+    >
+      Magenta
+    </div>
+    <div
+      class="sc-bdnxRM jVyrTm"
+      data-testid="tile"
+    >
+      Gray
+    </div>
+    <div
+      class="sc-bdnxRM fVYXsO"
+      data-testid="tile"
+    >
+      White
+    </div>
+  </div>
+</DocumentFragment>
+`;

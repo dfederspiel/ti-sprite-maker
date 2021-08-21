@@ -21,7 +21,7 @@ const SpriteMaker = () => {
       }
       return pixel;
     }));
-    localStorage.setItem('1', JSON.stringify(newGridState));
+    localStorage.setItem('ti99-matrix', JSON.stringify(newGridState));
     setBlocks(newGridState);
   };
 
@@ -54,7 +54,7 @@ const SpriteMaker = () => {
                   && row.map((cell, c) => (
                     <Block
                       key={`${r}-${c}`}
-                      state={cell}
+                      state={cell !== 0}
                       color={color}
                       clicked={() => updateGrid(r, c)}
                     />
