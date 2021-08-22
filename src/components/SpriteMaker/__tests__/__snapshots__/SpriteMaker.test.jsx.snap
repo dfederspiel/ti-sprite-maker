@@ -6,91 +6,91 @@ exports[`the sprite maker changes tile colors when a tile is clicked 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -528,91 +528,91 @@ exports[`the sprite maker changes tile colors when a tile is clicked 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -627,91 +627,91 @@ exports[`the sprite maker changes tile colors when a tile is clicked 2`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -1149,91 +1149,91 @@ exports[`the sprite maker changes tile colors when a tile is clicked 2`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -1248,91 +1248,91 @@ exports[`the sprite maker renders as expected 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -1770,91 +1770,91 @@ exports[`the sprite maker renders as expected 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -1869,91 +1869,91 @@ exports[`the sprite maker updates the grid when a block is clicked 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
@@ -2391,91 +2391,91 @@ exports[`the sprite maker updates the grid when a block is clicked 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bdnxRM ezOA-DC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bdnxRM kHtVIg"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bdnxRM hyvUXK"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bdnxRM jewkvC"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bdnxRM cHGNMV"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bdnxRM bEZCXZ"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bdnxRM xOTOI"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bdnxRM iliNdy"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bdnxRM hdTmhv"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bdnxRM hJQeXp"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bdnxRM dXiCqD"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bdnxRM kPwkwO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bdnxRM cytiDk"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bdnxRM jVyrTm"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bdnxRM fVYXsO"
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
       data-testid="tile"
     >
       White
