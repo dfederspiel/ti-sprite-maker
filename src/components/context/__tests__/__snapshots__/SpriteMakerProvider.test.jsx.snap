@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the sprite maker hook can mutate a simple state value: and reflects the mutated state 1`] = `
+Object {
+  "doThing": [Function],
+  "test": 420,
+}
+`;
+
+exports[`the sprite maker hook exposes the underlying context: and has a default state 1`] = `
+Object {
+  "doThing": [Function],
+  "test": 1,
+}
+`;
+
+exports[`the sprite maker provider renders as expected 1`] = `
+<DocumentFragment>
+  TEST
+</DocumentFragment>
+`;
