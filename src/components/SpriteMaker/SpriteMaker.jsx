@@ -9,7 +9,7 @@ const SpriteMaker = () => {
   const spriteMaker = useSpriteMaker();
   const [color, setColor] = useState('000000');
 
-  return (spriteMaker.blocks && (
+  return spriteMaker.blocks && (
     <>
       <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
       <div
@@ -49,7 +49,7 @@ const SpriteMaker = () => {
       </div>
       <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
     </>
-  )) || <h1>Loading...</h1>;
+  );
 };
 
 export default SpriteMaker;
