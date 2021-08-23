@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <SpriteMakerProvider>
-          <SpriteMaker hex="00995a3c3c3c2424" />
+        <SpriteMakerProvider hex="00995a3c3c3c2424">
+          <SpriteMaker />
         </SpriteMakerProvider>
       </header>
     </div>

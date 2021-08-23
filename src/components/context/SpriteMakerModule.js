@@ -13,13 +13,40 @@ export default class SpriteMakerModule {
     return row;
   }
 
-  newGrid() {
+  static hex2bin(hex) {
+    return (parseInt(hex, 16).toString(2)).padStart(4, '0');
+  }
+
+  getDefaultGrid() {
     const grid = [];
     const row = SpriteMakerModule.getDefaultRow(this.SPRITE_WIDTH);
     for (let x = 0; x < this.SPRITE_HEIGHT; x++) {
       grid.push(row);
     }
     return grid;
+  }
+
+  getGridFromHex(hex) {
+    const grid = [];
+    const sections = hex.split('');
+
+    let pixels = '';
+    sections.forEach((h) => {
+      pixels += SpriteMakerModule.hex2bin(h);
+    });
+    let currentRow = [];
+    pixels.split('').forEach((p, idx) => {
+      currentRow.push(parseInt(p, 2));
+      if (idx !== 0 && ((idx + 1) % this.SPRITE_WIDTH === 0)) {
+        grid.push(currentRow);
+        currentRow = [];
+      }
+    });
+    return grid;
+  }
+
+  newGrid(hex) {
+    return hex ? this.getGridFromHex(hex) : this.getDefaultGrid();
   }
 
   static getHex(blocks) {

@@ -1242,6 +1242,627 @@ exports[`the sprite maker changes tile colors when a tile is clicked 2`] = `
 </DocumentFragment>
 `;
 
+exports[`the sprite maker given a hex value defaults to an image 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+  >
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
+      data-testid="tile"
+    >
+      Black
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
+      data-testid="tile"
+    >
+      Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
+      data-testid="tile"
+    >
+      Light Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
+      data-testid="tile"
+    >
+      Blue
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
+      data-testid="tile"
+    >
+      Light Blue
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
+      data-testid="tile"
+    >
+      Dark Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
+      data-testid="tile"
+    >
+      Cyan
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
+      data-testid="tile"
+    >
+      Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
+      data-testid="tile"
+    >
+      Light Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
+      data-testid="tile"
+    >
+      Dark Yellow
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
+      data-testid="tile"
+    >
+      Light Yellow
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
+      data-testid="tile"
+    >
+      Dark Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
+      data-testid="tile"
+    >
+      Magenta
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
+      data-testid="tile"
+    >
+      Gray
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
+      data-testid="tile"
+    >
+      White
+    </div>
+  </div>
+  <div
+    style="justify-content: center;"
+  >
+    <div>
+      TI-99/4a Sprite Maker
+    </div>
+    <div>
+      CALL CHAR(123, "0000000000000000")
+    </div>
+    <div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+  >
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 chifAU"
+      data-testid="tile"
+    >
+      Black
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cuOnDe"
+      data-testid="tile"
+    >
+      Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cPuCaE"
+      data-testid="tile"
+    >
+      Light Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 iKoLKg"
+      data-testid="tile"
+    >
+      Blue
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 lbPjVv"
+      data-testid="tile"
+    >
+      Light Blue
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hunCnD"
+      data-testid="tile"
+    >
+      Dark Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 eGZivW"
+      data-testid="tile"
+    >
+      Cyan
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jMpLGY"
+      data-testid="tile"
+    >
+      Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 giRpjJ"
+      data-testid="tile"
+    >
+      Light Red
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cKCpKL"
+      data-testid="tile"
+    >
+      Dark Yellow
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 gufEwJ"
+      data-testid="tile"
+    >
+      Light Yellow
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 hdwiZk"
+      data-testid="tile"
+    >
+      Dark Green
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 bOSWgq"
+      data-testid="tile"
+    >
+      Magenta
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 cebcLc"
+      data-testid="tile"
+    >
+      Gray
+    </div>
+    <div
+      class="ColorPicker__StyledColorTile-sc-feb5nb-0 jSBPHc"
+      data-testid="tile"
+    >
+      White
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
 exports[`the sprite maker renders as expected 1`] = `
 <DocumentFragment>
   <div

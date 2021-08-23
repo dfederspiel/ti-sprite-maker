@@ -1,6 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`the sprite maker hook exposes the underlying context: and has a default sprite state 1`] = `"0000000000000000"`;
+exports[`the sprite maker hook can initialize with an image 1`] = `
+Array [
+  Array [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+  ],
+  Array [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+  ],
+  Array [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+  ],
+  Array [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+  ],
+  Array [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+  ],
+  Array [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+  ],
+  Array [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+  ],
+  Array [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+  ],
+]
+`;
+
+exports[`the sprite maker hook can initialize with an image: and has a preset sprite state 1`] = `"0123456789abcdef"`;
+
+exports[`the sprite maker hook exposes the underlying context: and has a default sprite state 1`] = `"ffff0000ffff0000"`;
 
 exports[`the sprite maker provider renders as expected 1`] = `
 <DocumentFragment>
