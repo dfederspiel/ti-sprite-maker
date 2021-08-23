@@ -3,15 +3,18 @@ import {
   render, fireEvent, act,
 } from '@testing-library/react';
 import SpriteMaker from '../SpriteMaker';
+import { SpriteMakerProvider } from '../../context/SpriteMakerProvider';
+
+const TestHarness = () => <SpriteMakerProvider><SpriteMaker /></SpriteMakerProvider>;
 
 describe('the sprite maker', () => {
   it('renders as expected', () => {
-    const { asFragment } = render(<SpriteMaker />);
+    const { asFragment } = render(<TestHarness />);
     expect(asFragment()).toMatchSnapshot();
   });
 
   it('changes tile colors when a tile is clicked', async () => {
-    const { findAllByTestId, asFragment } = render(<SpriteMaker />);
+    const { findAllByTestId, asFragment } = render(<TestHarness />);
     const tiles = await findAllByTestId('tile');
     expect(asFragment()).toMatchSnapshot();
     act(() => {
@@ -22,7 +25,7 @@ describe('the sprite maker', () => {
   });
 
   it('updates the grid when a block is clicked', async () => {
-    const { findAllByTestId, asFragment } = render(<SpriteMaker />);
+    const { findAllByTestId, asFragment } = render(<TestHarness />);
     const blocks = await findAllByTestId('block');
     expect(blocks.length).toEqual(64);
 

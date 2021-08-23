@@ -1,24 +1,24 @@
 import React, { createContext, useContext, useState } from 'react';
 import PropTypes from 'prop-types';
+import { defaultGrid, getHex } from './constants';
 
-const useProvideSpriteMakerContext = () => {
-  const [test, setTest] = useState(1);
-  const doThing = (val) => {
-    setTest(val);
-  };
+export const useSpriteMakerProviderProps = () => {
+  const [sprite] = useState('0'.repeat(16));
+
   return {
-    doThing,
-    test,
+    sprite,
+    getHex,
+    defaultGrid,
   };
 };
 
 const spriteMakerContext = createContext(null);
 
 export const SpriteMakerProvider = ({ children }) => {
-  const providerContext = useProvideSpriteMakerContext();
+  const props = useSpriteMakerProviderProps();
   return (
     <spriteMakerContext.Provider
-      value={providerContext}
+      value={props}
     >
       {children}
     </spriteMakerContext.Provider>

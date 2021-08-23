@@ -3,14 +3,12 @@ import React, { useState } from 'react';
 import Block from './Block';
 import ColorPicker from '../ColorPicker';
 import MenuStrip from './MenuStrip';
-import {
-  getHex,
-  defaultGrid,
-} from './constants';
+import { useSpriteMaker } from '../context/SpriteMakerProvider';
 
 const SpriteMaker = () => {
+  const spriteMaker = useSpriteMaker();
   const [blocks, setBlocks] = useState(
-    JSON.parse(localStorage.getItem('ti99-matrix')) || defaultGrid,
+    JSON.parse(localStorage.getItem('ti99-matrix')) || spriteMaker.defaultGrid,
   );
   const [color, setColor] = useState('000000');
 
@@ -36,7 +34,7 @@ const SpriteMaker = () => {
         <div>TI-99/4a Sprite Maker</div>
         <div>
           CALL CHAR(123, &quot;
-          {getHex(blocks)}
+          {spriteMaker.getHex(blocks)}
           &quot;)
         </div>
         <MenuStrip />
