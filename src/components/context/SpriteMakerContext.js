@@ -1,7 +1,7 @@
 /* eslint-disable no-plusplus */
 import { useState } from 'react';
 
-const SpriteMakerProviderProps = () => {
+const SpriteMakerContext = () => {
   const [sprite] = useState('0'.repeat(16));
 
   const SPRITE_WIDTH = 8;
@@ -43,4 +43,4 @@ const SpriteMakerProviderProps = () => {
   };
 };
 
-export default SpriteMakerProviderProps;
+export default SpriteMakerContext;
