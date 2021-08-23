@@ -1,21 +1,13 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext } from 'react';
 import PropTypes from 'prop-types';
-import { defaultGrid, getHex } from './constants';
-
-export const useSpriteMakerProviderProps = () => {
-  const [sprite] = useState('0'.repeat(16));
-
-  return {
-    sprite,
-    getHex,
-    defaultGrid,
-  };
-};
+import SpriteMakerContext from './SpriteMakerContext';
+import SpriteMakerModule from './SpriteMakerModule';
 
 const spriteMakerContext = createContext(null);
+const spriteMaker = new SpriteMakerModule();
 
 export const SpriteMakerProvider = ({ children }) => {
-  const props = useSpriteMakerProviderProps();
+  const props = SpriteMakerContext(spriteMaker);
   return (
     <spriteMakerContext.Provider
       value={props}
