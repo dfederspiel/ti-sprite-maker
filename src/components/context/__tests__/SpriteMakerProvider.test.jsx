@@ -18,6 +18,6 @@ describe('the sprite maker hook', () => {
   );
   it('exposes the underlying context', () => {
     const { result } = renderHook(() => useSpriteMaker(), { wrapper });
-    expect(result.current).toMatchSnapshot('and has a default state');
+    expect(result.current.sprite).toMatchSnapshot('and has a default sprite state');
   });
 });
