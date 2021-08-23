@@ -7,23 +7,9 @@ import { useSpriteMaker } from '../context/SpriteMakerProvider';
 
 const SpriteMaker = () => {
   const spriteMaker = useSpriteMaker();
-  const [blocks, setBlocks] = useState(
-    JSON.parse(localStorage.getItem('ti99-matrix')) || spriteMaker.defaultGrid,
-  );
   const [color, setColor] = useState('000000');
 
-  const updateGrid = (xPos, yPos) => {
-    const newGridState = blocks.map((row, x) => row.map((pixel, y) => {
-      if (x === xPos && y === yPos) {
-        return pixel === 0 ? 1 : 0;
-      }
-      return pixel;
-    }));
-    localStorage.setItem('ti99-matrix', JSON.stringify(newGridState));
-    setBlocks(newGridState);
-  };
-
-  return (
+  return (spriteMaker.blocks && (
     <>
       <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
       <div
@@ -34,13 +20,13 @@ const SpriteMaker = () => {
         <div>TI-99/4a Sprite Maker</div>
         <div>
           CALL CHAR(123, &quot;
-          {spriteMaker.getHex(blocks)}
+          {spriteMaker.getHex()}
           &quot;)
         </div>
         <MenuStrip />
         <div>
-          {blocks
-            && blocks.map((row, r) => (
+          {spriteMaker.blocks
+            && spriteMaker.blocks.map((row, r) => (
               <div
                 key={r}
                 style={{
@@ -54,7 +40,7 @@ const SpriteMaker = () => {
                       key={`${r}-${c}`}
                       state={cell !== 0}
                       color={color}
-                      clicked={() => updateGrid(r, c)}
+                      clicked={() => spriteMaker.updateGrid(r, c)}
                     />
                   ))}
               </div>
@@ -63,7 +49,7 @@ const SpriteMaker = () => {
       </div>
       <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
     </>
-  );
+  )) || <h1>Loading...</h1>;
 };
 
 export default SpriteMaker;

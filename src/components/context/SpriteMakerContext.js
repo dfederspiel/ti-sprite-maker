@@ -1,44 +1,31 @@
 /* eslint-disable no-plusplus */
 import { useState } from 'react';
+import SpriteMakerModule from './SpriteMakerModule';
 
-const SpriteMakerContext = () => {
+const SpriteMakerContext = (spriteMaker) => {
+  const defaultGrid = spriteMaker.newGrid();
   const [sprite] = useState('0'.repeat(16));
+  const [blocks, setBlocks] = useState(
+    JSON.parse(localStorage.getItem('ti99-matrix')) || defaultGrid,
+  );
+  const getHex = () => SpriteMakerModule.getHex(blocks);
 
-  const SPRITE_WIDTH = 8;
-  const SPRITE_HEIGHT = 8;
-
-  const getDefaultRow = (width) => {
-    const row = [];
-    for (let x = 0; x < width; x++) {
-      row.push(0);
-    }
-    return row;
+  const updateGrid = (xPos, yPos) => {
+    const newGridState = blocks.map((row, x) => row.map((pixel, y) => {
+      if (x === xPos && y === yPos) {
+        return pixel === 0 ? 1 : 0;
+      }
+      return pixel;
+    }));
+    localStorage.setItem('ti99-matrix', JSON.stringify(newGridState));
+    setBlocks(newGridState);
   };
-
-  const newGrid = () => {
-    const grid = [];
-    const row = getDefaultRow(SPRITE_WIDTH);
-    for (let x = 0; x < SPRITE_HEIGHT; x++) {
-      grid.push(row);
-    }
-    return grid;
-  };
-
-  const getHex = (blocks) => {
-    let hex = '';
-    for (let x = 0; x < blocks.length; x++) {
-      const sequence = blocks[x].join('');
-      hex += parseInt(sequence.substring(0, 4), 2).toString(16);
-      hex += parseInt(sequence.substring(4), 2).toString(16);
-    }
-    return hex;
-  };
-
-  const defaultGrid = newGrid();
 
   return {
     sprite,
+    blocks,
     getHex,
+    updateGrid,
     defaultGrid,
   };
 };
