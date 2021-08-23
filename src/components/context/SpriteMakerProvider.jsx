@@ -1,11 +1,13 @@
 import React, { createContext, useContext } from 'react';
 import PropTypes from 'prop-types';
 import SpriteMakerContext from './SpriteMakerContext';
+import SpriteMaker from './SpriteMaker';
 
 const spriteMakerContext = createContext(null);
+const spriteMaker = new SpriteMaker();
 
 export const SpriteMakerProvider = ({ children }) => {
-  const props = SpriteMakerContext();
+  const props = SpriteMakerContext(spriteMaker);
   return (
     <spriteMakerContext.Provider
       value={props}
