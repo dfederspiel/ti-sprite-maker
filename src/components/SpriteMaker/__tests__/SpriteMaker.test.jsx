@@ -5,16 +5,23 @@ import {
 import SpriteMaker from '../SpriteMaker';
 import { SpriteMakerProvider } from '../../context/SpriteMakerProvider';
 
-const TestHarness = () => <SpriteMakerProvider><SpriteMaker /></SpriteMakerProvider>;
+const withContext = (children) => render(<SpriteMakerProvider>{children}</SpriteMakerProvider>);
 
 describe('the sprite maker', () => {
   it('renders as expected', () => {
-    const { asFragment } = render(<TestHarness />);
+    const { asFragment } = withContext(<SpriteMaker />);
     expect(asFragment()).toMatchSnapshot();
   });
 
+  describe('given a hex value', () => {
+    it('defaults to an image', () => {
+      const { asFragment } = withContext(<SpriteMaker hex="ffffffffffffffff" />);
+      expect(asFragment()).toMatchSnapshot();
+    });
+  });
+
   it('changes tile colors when a tile is clicked', async () => {
-    const { findAllByTestId, asFragment } = render(<TestHarness />);
+    const { findAllByTestId, asFragment } = withContext(<SpriteMaker />);
     const tiles = await findAllByTestId('tile');
     expect(asFragment()).toMatchSnapshot();
     act(() => {
@@ -25,7 +32,7 @@ describe('the sprite maker', () => {
   });
 
   it('updates the grid when a block is clicked', async () => {
-    const { findAllByTestId, asFragment } = render(<TestHarness />);
+    const { findAllByTestId, asFragment } = withContext(<SpriteMaker />);
     const blocks = await findAllByTestId('block');
     expect(blocks.length).toEqual(64);
 

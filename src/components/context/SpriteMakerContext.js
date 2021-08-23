@@ -2,9 +2,9 @@
 import { useState } from 'react';
 import SpriteMakerModule from './SpriteMakerModule';
 
-const SpriteMakerContext = (spriteMaker) => {
-  const defaultGrid = spriteMaker.newGrid();
-  const [sprite] = useState('0'.repeat(16));
+const SpriteMakerContext = (spriteMaker, hex) => {
+  const defaultGrid = spriteMaker.newGrid(hex);
+  const [sprite] = useState(hex || 'f'.repeat(16));
   const [blocks, setBlocks] = useState(
     JSON.parse(localStorage.getItem('ti99-matrix')) || defaultGrid,
   );

@@ -6,8 +6,8 @@ import SpriteMakerModule from './SpriteMakerModule';
 const spriteMakerContext = createContext(null);
 const spriteMaker = new SpriteMakerModule();
 
-export const SpriteMakerProvider = ({ children }) => {
-  const props = SpriteMakerContext(spriteMaker);
+export const SpriteMakerProvider = ({ children, hex }) => {
+  const props = SpriteMakerContext(spriteMaker, hex);
   return (
     <spriteMakerContext.Provider
       value={props}
@@ -23,6 +23,11 @@ SpriteMakerProvider.propTypes = {
     PropTypes.node,
     PropTypes.string,
   ]).isRequired,
+  hex: PropTypes.string,
+};
+
+SpriteMakerProvider.defaultProps = {
+  hex: '0'.repeat(16),
 };
 
 export const useSpriteMaker = () => useContext(spriteMakerContext);
