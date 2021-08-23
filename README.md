@@ -1,5 +1,7 @@
 # TI-99/4A Sprite Maker
-![build status](https://github.com/dfederspiel/ti-sprite-maker/actions/workflows/azure-static-web-apps-proud-hill-0971b0010.yml/badge.svg)  
+![build status](https://github.com/dfederspiel/ti-sprite-maker/actions/workflows/azure-static-web-apps-proud-hill-0971b0010.yml/badge.svg)
+[![codecov](https://codecov.io/gh/dfederspiel/ti-sprite-maker/branch/main/graph/badge.svg?token=8HKDQX4PCR)](https://codecov.io/gh/dfederspiel/ti-sprite-maker)  
+
 Visual HEX encoder for ASCII character mapping on the TI-99/4A 
 
 ![TI-99/4A Sprite Maker](/TI-99.png)
