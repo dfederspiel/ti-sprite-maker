@@ -29,8 +29,14 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
+          app_build_command: "yarn test && yarn run build"
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: coverage
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
