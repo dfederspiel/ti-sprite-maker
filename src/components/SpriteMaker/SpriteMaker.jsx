@@ -1,17 +1,14 @@
 /* eslint-disable react/no-array-index-key */
-import React, { useState } from 'react';
+import React from 'react';
 import Block from './Block';
-import ColorPicker from '../ColorPicker';
 import MenuStrip from './MenuStrip';
 import { useSpriteMaker } from '../context/SpriteMakerProvider';
 
 const SpriteMaker = () => {
   const spriteMaker = useSpriteMaker();
-  const [color, setColor] = useState('000000');
 
   return spriteMaker.blocks && (
     <>
-      <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
       <div
         style={{
           justifyContent: 'center',
@@ -39,7 +36,7 @@ const SpriteMaker = () => {
                     <Block
                       key={`${r}-${c}`}
                       state={cell !== 0}
-                      color={color}
+                      color={spriteMaker.color}
                       clicked={() => spriteMaker.updateGrid(r, c)}
                     />
                   ))}
@@ -47,7 +44,6 @@ const SpriteMaker = () => {
             ))}
         </div>
       </div>
-      <ColorPicker onColorChange={(newColor) => setColor(newColor)} />
     </>
   );
 };

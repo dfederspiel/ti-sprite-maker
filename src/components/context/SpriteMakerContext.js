@@ -5,6 +5,7 @@ import SpriteMakerModule from './SpriteMakerModule';
 const SpriteMakerContext = (spriteMaker, hex) => {
   const defaultGrid = spriteMaker.newGrid(hex);
   const [sprite] = useState(hex || 'f'.repeat(16));
+  const [color, setColor] = useState('000000');
   const [blocks, setBlocks] = useState(
     JSON.parse(localStorage.getItem('ti99-matrix')) || defaultGrid,
   );
@@ -23,8 +24,10 @@ const SpriteMakerContext = (spriteMaker, hex) => {
 
   return {
     sprite,
+    color,
     blocks,
     getHex,
+    setColor,
     updateGrid,
     defaultGrid,
   };
