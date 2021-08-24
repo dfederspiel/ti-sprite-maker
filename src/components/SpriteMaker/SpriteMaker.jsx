@@ -6,7 +6,6 @@ import { useSpriteMaker } from '../context/SpriteMakerProvider';
 
 const SpriteMaker = () => {
   const spriteMaker = useSpriteMaker();
-
   return spriteMaker.blocks && (
     <>
       <div
@@ -14,12 +13,7 @@ const SpriteMaker = () => {
           justifyContent: 'center',
         }}
       >
-        <div>TI-99/4a Sprite Maker</div>
-        <div>
-          CALL CHAR(123, &quot;
-          {spriteMaker.getHex()}
-          &quot;)
-        </div>
+
         <MenuStrip />
         <div>
           {spriteMaker.blocks
