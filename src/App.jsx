@@ -25,8 +25,7 @@ function AppWrapper() {
           spriteMaker.setHex(genRanHex(16));
         }}
       >
-        Click to Set new hex
-
+        click to randomize
       </button>
       <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
     </>
