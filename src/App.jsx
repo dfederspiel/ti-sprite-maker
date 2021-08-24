@@ -9,7 +9,25 @@ function AppWrapper() {
   return (
     <>
       <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
+      <div>
+        <div>TI-99/4a Sprite Maker</div>
+        <div>
+          CALL CHAR(123, &quot;
+          {spriteMaker.getHex()}
+          &quot;)
+        </div>
+      </div>
       <SpriteMaker />
+      <button
+        type="button"
+        onClick={() => {
+          const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+          spriteMaker.setHex(genRanHex(16));
+        }}
+      >
+        Click to Set new hex
+
+      </button>
       <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
     </>
   );
