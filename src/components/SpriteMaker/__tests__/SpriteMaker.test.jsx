@@ -20,17 +20,6 @@ describe('the sprite maker', () => {
     });
   });
 
-  it('changes tile colors when a tile is clicked', async () => {
-    const { findAllByTestId, asFragment } = withContext(<SpriteMaker />);
-    const tiles = await findAllByTestId('tile');
-    expect(asFragment()).toMatchSnapshot();
-    act(() => {
-      fireEvent.click(tiles[3]);
-      fireEvent.click(tiles[18]);
-    });
-    expect(asFragment()).toMatchSnapshot();
-  });
-
   it('updates the grid when a block is clicked', async () => {
     const { findAllByTestId, asFragment } = withContext(<SpriteMaker />);
     const blocks = await findAllByTestId('block');

@@ -9,6 +9,7 @@ describe('the sprite maker context', () => {
         const spriteMaker = new SpriteMakerModule();
         return SpriteMakerContext(spriteMaker);
       });
+
       expect(result.current.sprite).toEqual('f'.repeat(16));
       expect(result.current.blocks).toEqual(
         [
