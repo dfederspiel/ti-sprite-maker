@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <SpriteMakerProvider hex="00995a3c3c3c2424">
+        <SpriteMakerProvider hex="ff995a3c3c3c2424">
           <AppWrapper />
         </SpriteMakerProvider>
       </header>
