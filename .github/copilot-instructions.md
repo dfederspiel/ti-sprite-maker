@@ -7,32 +7,32 @@ TI-99/4A Sprite Maker is a React web application built with Vite that allows use
 ## Working Effectively
 
 ### Prerequisites and Setup
-- Ensure yarn is available: `which yarn` (should return `/usr/local/bin/yarn`)
-- Always use yarn as the package manager (NOT npm) - the repository is configured for yarn
+- Ensure npm is available: `which npm` (should return `/usr/local/bin/npm`)
+- Always use npm as the package manager (NOT yarn) - the repository is configured for npm
 
 ### Bootstrap and Build Commands
-1. **Install dependencies**: `yarn install` 
-   - Takes ~40 seconds typically - set timeout to 90+ seconds
+1. **Install dependencies**: `npm install` 
+   - Takes ~16 seconds typically - set timeout to 60+ seconds
    - NEVER CANCEL: Can take longer on slower systems
    - Fixes missing dependencies automatically
 
-2. **Run tests**: `yarn test`
-   - Takes ~4 seconds - set timeout to 30+ seconds  
+2. **Run tests**: `npm test`
+   - Takes ~3.7 seconds - set timeout to 30+ seconds  
    - Runs vitest with coverage
    - All 22 tests should pass
 
-3. **Build for production**: `yarn build`
-   - Takes ~2 seconds - set timeout to 60+ seconds
+3. **Build for production**: `npm run build`
+   - Takes ~1.7 seconds - set timeout to 60+ seconds
    - NEVER CANCEL: Build times can vary significantly
    - Outputs to `build/` directory
    - Uses Vite for bundling
 
-4. **Run development server**: `yarn dev`
+4. **Run development server**: `npm run dev`
    - Starts immediately on http://localhost:3000
    - Auto-opens browser window
    - Hot reload enabled for development
 
-5. **Run linter**: `yarn lint`
+5. **Run linter**: `npm run lint`
    - Takes ~2 seconds
    - Uses ESLint with Airbnb config
    - NOTE: Currently reports style violations but doesn't block functionality
@@ -42,7 +42,7 @@ TI-99/4A Sprite Maker is a React web application built with Vite that allows use
 ### Manual Testing Requirements
 After making any changes, ALWAYS validate the core sprite functionality:
 
-1. **Start the development server**: `yarn dev`
+1. **Start the development server**: `npm run dev`
 2. **Navigate to**: http://localhost:3000
 3. **Test sprite editing**:
    - Click individual squares in the 8x8 grid - they should toggle between black and cyan
@@ -52,8 +52,8 @@ After making any changes, ALWAYS validate the core sprite functionality:
 5. **Verify persistence**: Refresh the page - the sprite pattern should persist (uses localStorage)
 
 ### Required Validation Steps
-- Always run `yarn test` before committing changes
-- Always run `yarn build` to ensure production build works
+- Always run `npm test` before committing changes
+- Always run `npm run build` to ensure production build works
 - Always manually test the sprite editing functionality as described above
 - Use browser developer tools to check for console errors
 
@@ -78,7 +78,7 @@ src/
 ```
 
 ### Configuration Files
-- `package.json` - Dependencies and scripts (uses yarn)
+- `package.json` - Dependencies and scripts (uses npm)
 - `vite.config.js` - Vite build configuration
 - `.eslintrc.cjs` - ESLint linting rules (renamed from .js for ES modules)
 - `.github/workflows/azure-static-web-apps-*.yml` - CI/CD pipeline
@@ -91,7 +91,7 @@ src/
 ## CI/CD Pipeline
 
 The project deploys to Azure Static Web Apps via GitHub Actions:
-- **Build command**: `yarn test && yarn run build` 
+- **Build command**: `npm test && npm run build` 
 - **Output directory**: `build`
 - **Test coverage**: Uploads to Codecov
 - Pipeline runs on push to main and PR events
@@ -103,19 +103,14 @@ The project deploys to Azure Static Web Apps via GitHub Actions:
 - **Fix**: Use `.eslintrc.cjs` extension (already fixed)
 - **Root cause**: package.json has `"type": "module"`
 
-### Missing Dependencies  
-- **Issue**: `@testing-library/dom` missing from devDependencies
-- **Fix**: `yarn add @testing-library/dom --dev` (already fixed)
-- **Prevention**: Always run `yarn install` after pulling changes
-
 ### Package Lock Conflicts
-- **Issue**: Both yarn.lock and package-lock.json present
-- **Fix**: Remove package-lock.json, use only yarn.lock
-- **Prevention**: Always use yarn commands, never npm commands
+- **Issue**: Both package-lock.json and yarn.lock present
+- **Fix**: Remove yarn.lock, use only package-lock.json
+- **Prevention**: Always use npm commands, never yarn commands
 
 ### Lint Warnings (Non-blocking)
 - Current lint issues are style-related and do not affect functionality
-- Fix with: `yarn lint --fix` for auto-fixable issues
+- Fix with: `npm run lint --fix` for auto-fixable issues
 - Main issues: function component definitions, missing semicolons, trailing commas
 
 ## Development Tips
@@ -129,7 +124,7 @@ The project deploys to Azure Static Web Apps via GitHub Actions:
 - Unit tests are in `__tests__` directories alongside components
 - Use vitest (not Jest) for testing framework
 - Tests use React Testing Library with jsdom environment
-- Run `yarn test:watch` for interactive test development
+- Run `npm run test:watch` for interactive test development
 
 ### Performance Considerations
 - Build is very fast (~2 seconds) due to Vite
