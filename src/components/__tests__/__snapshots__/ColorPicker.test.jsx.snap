@@ -6,107 +6,92 @@ exports[`the color picker > renders as expected 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bRKDuR eHxJGB"
+      class="sc-bRKDuR hXlXbx"
       data-testid="tile"
-      hex="000000"
     >
       Black
     </div>
     <div
-      class="sc-bRKDuR yQRbr"
+      class="sc-bRKDuR jWKCBP"
       data-testid="tile"
-      hex="21c842"
     >
       Green
     </div>
     <div
-      class="sc-bRKDuR foUlPp"
+      class="sc-bRKDuR colApx"
       data-testid="tile"
-      hex="5edc78"
     >
       Light Green
     </div>
     <div
-      class="sc-bRKDuR gtmgvh"
+      class="sc-bRKDuR cNGPMZ"
       data-testid="tile"
-      hex="5455ed"
     >
       Blue
     </div>
     <div
-      class="sc-bRKDuR jyafpa"
+      class="sc-bRKDuR iPtQHy"
       data-testid="tile"
-      hex="7d76fc"
     >
       Light Blue
     </div>
     <div
-      class="sc-bRKDuR kRBpRa"
+      class="sc-bRKDuR jxorSC"
       data-testid="tile"
-      hex="d4524d"
     >
       Dark Red
     </div>
     <div
-      class="sc-bRKDuR iSBUvv"
+      class="sc-bRKDuR gMNKDf"
       data-testid="tile"
-      hex="42ebf5"
     >
       Cyan
     </div>
     <div
-      class="sc-bRKDuR DheBt"
+      class="sc-bRKDuR hcAXVd"
       data-testid="tile"
-      hex="fc5554"
     >
       Red
     </div>
     <div
-      class="sc-bRKDuR bhkiMs"
+      class="sc-bRKDuR bTLdGk"
       data-testid="tile"
-      hex="ff7978"
     >
       Light Red
     </div>
     <div
-      class="sc-bRKDuR ijIyi"
+      class="sc-bRKDuR fkATUq"
       data-testid="tile"
-      hex="d4c154"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bRKDuR eILkIo"
+      class="sc-bRKDuR eIIEBk"
       data-testid="tile"
-      hex="e6ce80"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bRKDuR bWLidp"
+      class="sc-bRKDuR jyDSEJ"
       data-testid="tile"
-      hex="21b03b"
     >
       Dark Green
     </div>
     <div
-      class="sc-bRKDuR hxipYT"
+      class="sc-bRKDuR beUAFP"
       data-testid="tile"
-      hex="c95bba"
     >
       Magenta
     </div>
     <div
-      class="sc-bRKDuR jAtIGl"
+      class="sc-bRKDuR fsjcxV"
       data-testid="tile"
-      hex="cccccc"
     >
       Gray
     </div>
     <div
-      class="sc-bRKDuR giIpUd"
+      class="sc-bRKDuR gcGxZp"
       data-testid="tile"
-      hex="ffffff"
     >
       White
     </div>

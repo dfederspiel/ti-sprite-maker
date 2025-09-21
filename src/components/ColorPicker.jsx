@@ -27,8 +27,18 @@ const StyledColorTile = styled.div`
   align-items: center;
   font-size: 16px;
   height: 75px;
-  background-color: #${(props) => props.hex};
+  background-color: #${(props) => props.$hex};
   flex: 1 1 20%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ffffff;
+    z-index: 1;
+    position: relative;
+  }
 
   @media screen and (min-width: 640px) {
     flex: 0 0 ${100 / colors.length}%;
@@ -47,7 +57,7 @@ const ColorPicker = (props) => (
     {colors.map((color) => (
       <StyledColorTile
         data-testid="tile"
-        hex={color.hex}
+        $hex={color.hex}
         key={nanoid()}
         onClick={() => props.onColorChange(color.hex)}
       >
