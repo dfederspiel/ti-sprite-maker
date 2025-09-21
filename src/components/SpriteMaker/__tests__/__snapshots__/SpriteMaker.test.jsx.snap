@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`the sprite maker given a hex value defaults to an image 1`] = `
+exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
 <DocumentFragment>
   <div
     style="justify-content: center;"
@@ -427,7 +427,7 @@ exports[`the sprite maker given a hex value defaults to an image 1`] = `
 </DocumentFragment>
 `;
 
-exports[`the sprite maker renders as expected 1`] = `
+exports[`the sprite maker > renders as expected 1`] = `
 <DocumentFragment>
   <div
     style="justify-content: center;"
@@ -854,7 +854,7 @@ exports[`the sprite maker renders as expected 1`] = `
 </DocumentFragment>
 `;
 
-exports[`the sprite maker updates the grid when a block is clicked 1`] = `
+exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
 <DocumentFragment>
   <div
     style="justify-content: center;"
