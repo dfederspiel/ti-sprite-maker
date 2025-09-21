@@ -6,91 +6,91 @@ exports[`the color picker > renders as expected 1`] = `
     style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
   >
     <div
-      class="sc-bRKDuR hXlXbx"
+      class="sc-bRKDuR hhYqTy"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bRKDuR jWKCBP"
+      class="sc-bRKDuR eddsQ"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bRKDuR colApx"
+      class="sc-bRKDuR cpEpVO"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bRKDuR cNGPMZ"
+      class="sc-bRKDuR fUfCMK"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bRKDuR iPtQHy"
+      class="sc-bRKDuR BHeal"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bRKDuR jxorSC"
+      class="sc-bRKDuR cIPBEZ"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bRKDuR gMNKDf"
+      class="sc-bRKDuR ebNvpY"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bRKDuR hcAXVd"
+      class="sc-bRKDuR UBlMq"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bRKDuR bTLdGk"
+      class="sc-bRKDuR jKHdPz"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bRKDuR fkATUq"
+      class="sc-bRKDuR jPyTgx"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bRKDuR eIIEBk"
+      class="sc-bRKDuR jAoiWb"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bRKDuR jyDSEJ"
+      class="sc-bRKDuR euOzBq"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bRKDuR beUAFP"
+      class="sc-bRKDuR iAvdCs"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bRKDuR fsjcxV"
+      class="sc-bRKDuR hoPAsu"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bRKDuR gcGxZp"
+      class="sc-bRKDuR bmBnO"
       data-testid="tile"
     >
       White

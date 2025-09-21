@@ -31,13 +31,12 @@ const StyledColorTile = styled.div`
   flex: 1 1 20%;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  border: 3px solid transparent;
+  box-sizing: border-box;
 
   &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border: 2px solid #ffffff;
-    z-index: 1;
-    position: relative;
+    border: 3px solid #000000;
+    box-shadow: inset 0 0 0 3px #ffffff;
   }
 
   @media screen and (min-width: 640px) {
