@@ -1,4 +1,37 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`the block > can initialize to on 1`] = `
+<DocumentFragment>
+  <button
+    class="on"
+    data-testid="block"
+    style="background-color: rgb(0, 0, 0); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+    type="button"
+  />
+</DocumentFragment>
+`;
+
+exports[`the block > can initialize with a color 1`] = `
+<DocumentFragment>
+  <button
+    class="on"
+    data-testid="block"
+    style="background-color: rgb(51, 102, 153); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+    type="button"
+  />
+</DocumentFragment>
+`;
+
+exports[`the block > defaults to off 1`] = `
+<DocumentFragment>
+  <button
+    class="off"
+    data-testid="block"
+    style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+    type="button"
+  />
+</DocumentFragment>
+`;
 
 exports[`the block can initialize to on 1`] = `
 <DocumentFragment>

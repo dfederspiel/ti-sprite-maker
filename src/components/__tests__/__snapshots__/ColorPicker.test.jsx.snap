@@ -1,4 +1,118 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`the color picker > renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+  >
+    <div
+      class="sc-bRKDuR eHxJGB"
+      data-testid="tile"
+      hex="000000"
+    >
+      Black
+    </div>
+    <div
+      class="sc-bRKDuR yQRbr"
+      data-testid="tile"
+      hex="21c842"
+    >
+      Green
+    </div>
+    <div
+      class="sc-bRKDuR foUlPp"
+      data-testid="tile"
+      hex="5edc78"
+    >
+      Light Green
+    </div>
+    <div
+      class="sc-bRKDuR gtmgvh"
+      data-testid="tile"
+      hex="5455ed"
+    >
+      Blue
+    </div>
+    <div
+      class="sc-bRKDuR jyafpa"
+      data-testid="tile"
+      hex="7d76fc"
+    >
+      Light Blue
+    </div>
+    <div
+      class="sc-bRKDuR kRBpRa"
+      data-testid="tile"
+      hex="d4524d"
+    >
+      Dark Red
+    </div>
+    <div
+      class="sc-bRKDuR iSBUvv"
+      data-testid="tile"
+      hex="42ebf5"
+    >
+      Cyan
+    </div>
+    <div
+      class="sc-bRKDuR DheBt"
+      data-testid="tile"
+      hex="fc5554"
+    >
+      Red
+    </div>
+    <div
+      class="sc-bRKDuR bhkiMs"
+      data-testid="tile"
+      hex="ff7978"
+    >
+      Light Red
+    </div>
+    <div
+      class="sc-bRKDuR ijIyi"
+      data-testid="tile"
+      hex="d4c154"
+    >
+      Dark Yellow
+    </div>
+    <div
+      class="sc-bRKDuR eILkIo"
+      data-testid="tile"
+      hex="e6ce80"
+    >
+      Light Yellow
+    </div>
+    <div
+      class="sc-bRKDuR bWLidp"
+      data-testid="tile"
+      hex="21b03b"
+    >
+      Dark Green
+    </div>
+    <div
+      class="sc-bRKDuR hxipYT"
+      data-testid="tile"
+      hex="c95bba"
+    >
+      Magenta
+    </div>
+    <div
+      class="sc-bRKDuR jAtIGl"
+      data-testid="tile"
+      hex="cccccc"
+    >
+      Gray
+    </div>
+    <div
+      class="sc-bRKDuR giIpUd"
+      data-testid="tile"
+      hex="ffffff"
+    >
+      White
+    </div>
+  </div>
+</DocumentFragment>
+`;
 
 exports[`the color picker renders as expected 1`] = `
 <DocumentFragment>
