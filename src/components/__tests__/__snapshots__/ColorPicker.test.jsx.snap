@@ -3,94 +3,100 @@
 exports[`the color picker > renders as expected 1`] = `
 <DocumentFragment>
   <div
-    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%; gap: 0px;"
   >
     <div
-      class="sc-bRKDuR hhYqTy"
+      class="sc-bRKDuR bhOiVM"
+      data-testid="tile"
+    >
+      Transparent
+    </div>
+    <div
+      class="sc-bRKDuR eliIsK"
       data-testid="tile"
     >
       Black
     </div>
     <div
-      class="sc-bRKDuR eddsQ"
+      class="sc-bRKDuR bLKRwz"
       data-testid="tile"
     >
       Green
     </div>
     <div
-      class="sc-bRKDuR cpEpVO"
+      class="sc-bRKDuR jIfMOl"
       data-testid="tile"
     >
       Light Green
     </div>
     <div
-      class="sc-bRKDuR fUfCMK"
+      class="sc-bRKDuR gyDWbA"
       data-testid="tile"
     >
       Blue
     </div>
     <div
-      class="sc-bRKDuR BHeal"
+      class="sc-bRKDuR drJKHv"
       data-testid="tile"
     >
       Light Blue
     </div>
     <div
-      class="sc-bRKDuR cIPBEZ"
+      class="sc-bRKDuR lhUfKD"
       data-testid="tile"
     >
       Dark Red
     </div>
     <div
-      class="sc-bRKDuR ebNvpY"
+      class="sc-bRKDuR VKGgh"
       data-testid="tile"
     >
       Cyan
     </div>
     <div
-      class="sc-bRKDuR UBlMq"
+      class="sc-bRKDuR bJBEJU"
       data-testid="tile"
     >
       Red
     </div>
     <div
-      class="sc-bRKDuR jKHdPz"
+      class="sc-bRKDuR hQhJAY"
       data-testid="tile"
     >
       Light Red
     </div>
     <div
-      class="sc-bRKDuR jPyTgx"
+      class="sc-bRKDuR dujUQu"
       data-testid="tile"
     >
       Dark Yellow
     </div>
     <div
-      class="sc-bRKDuR jAoiWb"
+      class="sc-bRKDuR dUFywK"
       data-testid="tile"
     >
       Light Yellow
     </div>
     <div
-      class="sc-bRKDuR euOzBq"
+      class="sc-bRKDuR dQKGJG"
       data-testid="tile"
     >
       Dark Green
     </div>
     <div
-      class="sc-bRKDuR iAvdCs"
+      class="sc-bRKDuR iTttON"
       data-testid="tile"
     >
       Magenta
     </div>
     <div
-      class="sc-bRKDuR hoPAsu"
+      class="sc-bRKDuR hycuBw"
       data-testid="tile"
     >
       Gray
     </div>
     <div
-      class="sc-bRKDuR bmBnO"
+      class="sc-bRKDuR czKMZH"
       data-testid="tile"
     >
       White
