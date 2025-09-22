@@ -212,10 +212,7 @@ function RandomizerControls({ onRandomize }) {
 
       <SliderContainer>
         <label htmlFor="frame-rate-slider">
-          Frame Rate:
-          {frameRate}
-          {' '}
-          FPS
+          {`Frame Rate: ${frameRate} FPS`}
         </label>
         <TISlider
           id="frame-rate-slider"
