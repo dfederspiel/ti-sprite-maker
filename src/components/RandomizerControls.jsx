@@ -8,7 +8,7 @@ const PixelBlock = styled.div.withConfig({
 })`
   width: 4px;
   height: 4px;
-  background-color: ${props => props.filled ? '#000000' : 'transparent'};
+  background-color: ${(props) => (props.filled ? '#000000' : 'transparent')};
   border: none;
 `;
 
@@ -98,72 +98,72 @@ const ControlsContainer = styled.div`
 `;
 
 // TI-style randomizer icon (dice pattern)
-const RandomizerIcon = () => {
+function RandomizerIcon() {
   const dicePattern = [
-    0,0,0,0,0,0,0,0,
-    0,1,1,1,1,1,1,0,
-    0,1,0,1,0,1,0,0,
-    0,1,1,1,1,1,1,0,
-    0,1,0,1,0,1,0,0,
-    0,1,1,1,1,1,1,0,
-    0,1,0,1,0,1,0,0,
-    0,0,0,0,0,0,0,0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 1, 1, 1, 1, 1, 1, 0,
+    0, 1, 0, 1, 0, 1, 0, 0,
+    0, 1, 1, 1, 1, 1, 1, 0,
+    0, 1, 0, 1, 0, 1, 0, 0,
+    0, 1, 1, 1, 1, 1, 1, 0,
+    0, 1, 0, 1, 0, 1, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
   ];
 
   return (
     <IconGrid>
       {dicePattern.map((pixel, index) => (
-        <PixelBlock key={index} filled={pixel === 1} />
+        <PixelBlock key={`dice-${index}`} filled={pixel === 1} />
       ))}
     </IconGrid>
   );
-};
+}
 
 // TI-style play icon (triangle)
-const PlayIcon = () => {
+function PlayIcon() {
   const playPattern = [
-    0,0,0,0,0,0,0,0,
-    0,1,0,0,0,0,0,0,
-    0,1,1,0,0,0,0,0,
-    0,1,1,1,0,0,0,0,
-    0,1,1,1,1,0,0,0,
-    0,1,1,1,0,0,0,0,
-    0,1,1,0,0,0,0,0,
-    0,1,0,0,0,0,0,0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 1, 0, 0, 0, 0, 0, 0,
+    0, 1, 1, 0, 0, 0, 0, 0,
+    0, 1, 1, 1, 0, 0, 0, 0,
+    0, 1, 1, 1, 1, 0, 0, 0,
+    0, 1, 1, 1, 0, 0, 0, 0,
+    0, 1, 1, 0, 0, 0, 0, 0,
+    0, 1, 0, 0, 0, 0, 0, 0,
   ];
 
   return (
     <IconGrid>
       {playPattern.map((pixel, index) => (
-        <PixelBlock key={index} filled={pixel === 1} />
+        <PixelBlock key={`play-${index}`} filled={pixel === 1} />
       ))}
     </IconGrid>
   );
-};
+}
 
 // TI-style pause icon (two bars)
-const PauseIcon = () => {
+function PauseIcon() {
   const pausePattern = [
-    0,0,0,0,0,0,0,0,
-    0,1,1,0,1,1,0,0,
-    0,1,1,0,1,1,0,0,
-    0,1,1,0,1,1,0,0,
-    0,1,1,0,1,1,0,0,
-    0,1,1,0,1,1,0,0,
-    0,1,1,0,1,1,0,0,
-    0,0,0,0,0,0,0,0,
+    0, 0, 0, 0, 0, 0, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 1, 1, 0, 1, 1, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0,
   ];
 
   return (
     <IconGrid>
       {pausePattern.map((pixel, index) => (
-        <PixelBlock key={index} filled={pixel === 1} />
+        <PixelBlock key={`pause-${index}`} filled={pixel === 1} />
       ))}
     </IconGrid>
   );
-};
+}
 
-const RandomizerControls = ({ onRandomize }) => {
+function RandomizerControls({ onRandomize }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [frameRate, setFrameRate] = useState(5);
   const intervalRef = useRef(null);
@@ -190,11 +190,9 @@ const RandomizerControls = ({ onRandomize }) => {
       intervalRef.current = setInterval(() => {
         onRandomize();
       }, interval);
-    } else {
-      if (intervalRef.current) {
-        clearInterval(intervalRef.current);
-        intervalRef.current = null;
-      }
+    } else if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
     }
 
     // Cleanup on unmount
@@ -211,9 +209,14 @@ const RandomizerControls = ({ onRandomize }) => {
         <RandomizerIcon />
         <span>Random</span>
       </TIButton>
-      
+
       <SliderContainer>
-        <label htmlFor="frame-rate-slider">Frame Rate: {frameRate} FPS</label>
+        <label htmlFor="frame-rate-slider">
+          Frame Rate:
+          {frameRate}
+          {' '}
+          FPS
+        </label>
         <TISlider
           id="frame-rate-slider"
           type="range"
@@ -223,14 +226,14 @@ const RandomizerControls = ({ onRandomize }) => {
           onChange={handleFrameRateChange}
         />
       </SliderContainer>
-      
+
       <TIButton onClick={togglePlayPause} type="button">
         {isPlaying ? <PauseIcon /> : <PlayIcon />}
         <span>{isPlaying ? 'Pause' : 'Play'}</span>
       </TIButton>
     </ControlsContainer>
   );
-};
+}
 
 RandomizerControls.propTypes = {
   onRandomize: PropTypes.func.isRequired,
