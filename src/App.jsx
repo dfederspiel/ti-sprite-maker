@@ -2,10 +2,17 @@ import React from 'react';
 import SpriteMaker from './components/SpriteMaker';
 import './App.css';
 import ColorPicker from './components/ColorPicker';
+import RandomizerControls from './components/RandomizerControls';
 import { SpriteMakerProvider, useSpriteMaker } from './components/context/SpriteMakerProvider';
 
 function AppWrapper() {
   const spriteMaker = useSpriteMaker();
+  
+  const handleRandomize = () => {
+    const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+    spriteMaker.setHex(genRanHex(16));
+  };
+
   return (
     <>
       <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
@@ -18,15 +25,7 @@ function AppWrapper() {
         </div>
       </div>
       <SpriteMaker />
-      <button
-        type="button"
-        onClick={() => {
-          const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
-          spriteMaker.setHex(genRanHex(16));
-        }}
-      >
-        click to randomize
-      </button>
+      <RandomizerControls onRandomize={handleRandomize} />
       <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
     </>
   );
