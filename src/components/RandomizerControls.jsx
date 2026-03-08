@@ -28,7 +28,7 @@ const TIButton = styled.button`
   margin: 4px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 12px;
+  font-size: 0.857rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@ const SliderContainer = styled.div`
   align-items: center;
   margin: 4px 8px;
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   color: var(--ti-textMuted);
 `;
 

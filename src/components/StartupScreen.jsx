@@ -91,7 +91,7 @@ const LogoPixel = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 16px;
+  font-size: 1.143rem;
   letter-spacing: 2px;
   line-height: 1.5;
   color: #000000;
@@ -99,31 +99,31 @@ const Title = styled.div`
   margin-bottom: 28px;
 
   @media (min-width: 640px) {
-    font-size: 20px;
+    font-size: 1.43rem;
   }
 `;
 
 const ReadyText = styled.div`
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 2px;
   color: #000000;
   text-align: center;
   animation: ${blink} 1.2s step-end infinite;
 
   @media (min-width: 640px) {
-    font-size: 16px;
+    font-size: 1.143rem;
   }
 `;
 
 const Copyright = styled.div`
-  font-size: 13px;
+  font-size: 0.929rem;
   letter-spacing: 2px;
   color: #000000;
   text-align: center;
   margin-top: 28px;
 
   @media (min-width: 640px) {
-    font-size: 15px;
+    font-size: 1.071rem;
   }
 `;
 
@@ -148,13 +148,13 @@ const SelectionHeader = styled.div`
 `;
 
 const SelectionTitle = styled.div`
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 2px;
   color: #000000;
   line-height: 1.5;
 
   @media (min-width: 640px) {
-    font-size: 16px;
+    font-size: 1.143rem;
   }
 `;
 
@@ -164,18 +164,18 @@ const MenuSection = styled.div`
 `;
 
 const PressLabel = styled.div`
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 2px;
   color: #000000;
   margin-bottom: 8px;
 
   @media (min-width: 640px) {
-    font-size: 16px;
+    font-size: 1.143rem;
   }
 `;
 
 const MenuItem = styled.div`
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 2px;
   padding: 4px 8px;
   cursor: pointer;
@@ -188,7 +188,7 @@ const MenuItem = styled.div`
   }
 
   @media (min-width: 640px) {
-    font-size: 16px;
+    font-size: 1.143rem;
     padding: 5px 8px;
   }
 `;

@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { nanoid } from 'nanoid';
-
 const colors = [
   { name: 'Black', code: 1, hex: '000000' },
   { name: 'Green', code: 2, hex: '21c842' },
@@ -55,7 +53,7 @@ const ColorPicker = (props) => (
       <StyledColorTile
         data-testid="tile"
         hex={color.hex}
-        key={nanoid()}
+        key={color.code}
         onClick={() => props.onColorChange(color.hex)}
         title={color.name}
       />

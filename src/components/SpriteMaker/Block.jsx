@@ -12,7 +12,7 @@ const Block = ({ color, state, clicked }) => (
       width: '30px',
       height: '30px',
       margin: '2px',
-      transition: 'all .5s',
+      transition: 'all .25s',
     }}
     className={state ? 'on' : 'off'}
     onClick={() => {

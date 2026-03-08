@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import SpriteMaker from './components/SpriteMaker';
 import './App.css';
 import ColorPicker from './components/ColorPicker';
-import RandomizerControls from './components/RandomizerControls';
 import AnimationPlayer from './components/AnimationPlayer';
 import AnimationSelector from './components/AnimationSelector';
 import FrameEditor from './components/FrameEditor';
@@ -25,7 +24,7 @@ const TitleBar = styled.div`
   border-bottom: 2px solid var(--ti-titleBarBorder);
   padding: 8px 16px;
   font-family: "TI", sans-serif;
-  font-size: 18px;
+  font-size: 1.3rem;
   color: var(--ti-titleBarText);
   text-align: center;
   letter-spacing: 2px;
@@ -43,7 +42,7 @@ const ThemeToggle = styled.button`
   padding: 4px 10px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 10px;
+  font-size: 0.75rem;
   letter-spacing: 0;
 
   &:hover { background: var(--ti-btnHoverBg); }
@@ -119,7 +118,7 @@ const CanvasArea = styled(Panel)`
 
 const HexDisplay = styled.div`
   font-family: "TI", monospace;
-  font-size: 12px;
+  font-size: 0.857rem;
   background: var(--ti-hexBg);
   color: var(--ti-hexText);
   padding: 4px 10px;
@@ -132,7 +131,7 @@ const HexDisplay = styled.div`
 const PanelPlaceholder = styled.div`
   color: var(--ti-placeholderText);
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
   padding: 20px 8px;
 `;
@@ -158,11 +157,6 @@ function AppToolbar({ title, onBack }) {
 function SpriteEditorView({ onBack }) {
   const spriteMaker = useSpriteMaker();
 
-  const handleRandomize = () => {
-    const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
-    spriteMaker.setHex(genRanHex(16));
-  };
-
   return (
     <Shell>
       <AppToolbar title="SPRITE EDITOR" onBack={onBack} />
@@ -174,7 +168,6 @@ function SpriteEditorView({ onBack }) {
             </HexDisplay>
             <SpriteMaker />
             <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
-            <RandomizerControls onRandomize={handleRandomize} />
           </CanvasArea>
         </CenterPanel>
       </WorkArea>
@@ -186,11 +179,6 @@ function AnimationStudioView({ onBack }) {
   const anim = useAnimation();
   const hasAnimation = !!anim.currentAnimation;
   const spriteMaker = useSpriteMaker();
-
-  const handleRandomize = () => {
-    const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
-    spriteMaker.setHex(genRanHex(16));
-  };
 
   return (
     <Shell>
@@ -207,7 +195,6 @@ function AnimationStudioView({ onBack }) {
             </HexDisplay>
             <SpriteMaker />
             <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
-            <RandomizerControls onRandomize={handleRandomize} />
           </CanvasArea>
         </CenterPanel>
 

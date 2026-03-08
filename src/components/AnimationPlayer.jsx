@@ -31,7 +31,7 @@ const TIButton = styled.button`
   margin: 3px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 12px;
+  font-size: 0.857rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@ const TIButton = styled.button`
 const SmallButton = styled(TIButton)`
   min-width: 32px;
   padding: 2px 6px;
-  font-size: 11px;
+  font-size: 0.8rem;
 `;
 
 const SliderContainer = styled.div`
@@ -54,7 +54,7 @@ const SliderContainer = styled.div`
   align-items: center;
   margin: 4px 0;
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   color: var(--ti-textMuted);
 `;
 
@@ -103,7 +103,7 @@ const TransportBar = styled.div`
 `;
 
 const FrameIndicator = styled.div`
-  font-size: 12px;
+  font-size: 0.857rem;
   margin: 2px 0;
   font-family: "TI", sans-serif;
   color: var(--ti-textMuted);
@@ -145,7 +145,7 @@ const ThumbPixel = styled.div.withConfig({
 `;
 
 const SectionLabel = styled.div`
-  font-size: 11px;
+  font-size: 0.8rem;
   font-family: "TI", sans-serif;
   color: var(--ti-labelColor);
   margin: 4px 0 2px;

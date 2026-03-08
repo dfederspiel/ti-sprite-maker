@@ -28,7 +28,7 @@ const TIButton = styled.button`
   margin: 2px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   min-width: 0;
   flex: 1 1 auto;
 
@@ -42,7 +42,7 @@ const DangerButton = styled(TIButton)`
 `;
 
 const SectionLabel = styled.div`
-  font-size: 11px;
+  font-size: 0.8rem;
   font-family: "TI", sans-serif;
   color: var(--ti-labelColor);
   margin: 8px 0 4px;

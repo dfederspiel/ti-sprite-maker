@@ -2,6 +2,9 @@
   font-family: "TI";
   src: url(./ti-1.ttf) format("truetype");
 }
+html {
+  font-size: clamp(14px, 1.6vw, 18px);
+}
 body {
   font-family: "TI", sans-serif;
   margin: 0;

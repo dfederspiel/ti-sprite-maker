@@ -17,7 +17,7 @@ const CodeBlock = styled.pre`
   background: var(--ti-codeBg);
   color: var(--ti-codeText);
   font-family: "TI", monospace;
-  font-size: 10px;
+  font-size: 0.75rem;
   padding: 8px;
   border: 1px solid var(--ti-codeBorder);
   max-width: 100%;
@@ -38,7 +38,7 @@ const TIButton = styled.button`
   margin: 2px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
 
   &:hover { background-color: var(--ti-btnHoverBg); }
   &:active { background-color: var(--ti-btnActiveBg); }
@@ -50,7 +50,7 @@ const ButtonRow = styled.div`
 `;
 
 const SectionLabel = styled.div`
-  font-size: 11px;
+  font-size: 0.8rem;
   font-family: "TI", sans-serif;
   color: var(--ti-labelColor);
   margin: 8px 0 4px;
@@ -61,7 +61,7 @@ const SectionLabel = styled.div`
 `;
 
 const CopiedBadge = styled.span`
-  font-size: 10px;
+  font-size: 0.75rem;
   color: var(--ti-copiedColor);
   margin-left: 6px;
 `;

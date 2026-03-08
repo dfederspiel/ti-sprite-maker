@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useAnimation } from './context/AnimationProvider';
-import { allExamples } from '../models/exampleAnimations';
+import { allExamples, createRandomAnimation } from '../models/exampleAnimations';
 
 const SelectorContainer = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ const TIButton = styled.button`
   margin: 2px;
   cursor: pointer;
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   min-width: 0;
   flex: 1 1 auto;
 
@@ -43,7 +43,7 @@ const ButtonRow = styled.div`
 `;
 
 const SectionLabel = styled.div`
-  font-size: 11px;
+  font-size: 0.8rem;
   font-family: "TI", sans-serif;
   color: var(--ti-labelColor);
   margin: 8px 0 4px;
@@ -55,7 +55,7 @@ const SectionLabel = styled.div`
 
 const TIInput = styled.input`
   font-family: "TI", sans-serif;
-  font-size: 11px;
+  font-size: 0.8rem;
   border: 1px solid var(--ti-inputBorder);
   background: var(--ti-inputBg);
   color: var(--ti-inputText);
@@ -96,6 +96,12 @@ function AnimationSelector() {
             </Btn>
           );
         })}
+        <TIButton
+          type="button"
+          onClick={() => anim.setCurrentAnimation(createRandomAnimation())}
+        >
+          Random
+        </TIButton>
       </ButtonRow>
 
       {anim.animations.length > 0 && (

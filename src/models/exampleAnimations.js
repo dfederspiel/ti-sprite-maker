@@ -156,3 +156,13 @@ export const allExamples = [
   arrowBlink,
   countdown,
 ];
+
+/** Generate a random animation with 10 frames of random hex patterns. */
+export function createRandomAnimation() {
+  const genHex = () => [...Array(16)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+  return createAnimation({
+    name: 'Random',
+    frameRate: 6,
+    frames: Array.from({ length: 10 }, () => createFrame(genHex())),
+  });
+}
