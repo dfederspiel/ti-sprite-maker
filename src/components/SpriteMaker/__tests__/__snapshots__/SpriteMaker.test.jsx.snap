@@ -12,101 +12,49 @@ exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -116,101 +64,49 @@ exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -220,101 +116,49 @@ exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -324,49 +168,49 @@ exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -376,49 +220,205 @@ exports[`the sprite maker > given a hex value > defaults to an image 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -439,101 +439,49 @@ exports[`the sprite maker > renders as expected 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -543,101 +491,49 @@ exports[`the sprite maker > renders as expected 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -647,101 +543,49 @@ exports[`the sprite maker > renders as expected 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -751,49 +595,49 @@ exports[`the sprite maker > renders as expected 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -803,49 +647,205 @@ exports[`the sprite maker > renders as expected 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -866,101 +866,49 @@ exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -970,101 +918,49 @@ exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -1074,101 +970,49 @@ exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-      </div>
-      <div
-        style="display: flex; justify-content: center;"
-      >
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
-          type="button"
-        />
-        <button
-          class="off"
-          data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -1178,49 +1022,49 @@ exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
       </div>
@@ -1230,43 +1074,199 @@ exports[`the sprite maker > updates the grid when a block is clicked 1`] = `
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
           class="off"
           data-testid="block"
-          style="background-color: white; width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+      </div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+          type="button"
+        />
+        <button
+          class="off"
+          data-testid="block"
+          style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
           type="button"
         />
         <button
