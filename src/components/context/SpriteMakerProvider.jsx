@@ -6,7 +6,7 @@ import SpriteMakerModule from './SpriteMakerModule';
 const spriteMakerContext = createContext(null);
 const spriteMaker = new SpriteMakerModule();
 
-export const SpriteMakerProvider = ({ children, hex }) => {
+export function SpriteMakerProvider({ children, hex }) {
   const props = SpriteMakerContext(spriteMaker, hex);
   return (
     <spriteMakerContext.Provider
@@ -15,7 +15,7 @@ export const SpriteMakerProvider = ({ children, hex }) => {
       {children}
     </spriteMakerContext.Provider>
   );
-};
+}
 
 SpriteMakerProvider.propTypes = {
   children: PropTypes.oneOfType([

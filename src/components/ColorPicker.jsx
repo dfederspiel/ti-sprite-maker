@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+
 const colors = [
   { name: 'Black', code: 1, hex: '000000' },
   { name: 'Green', code: 2, hex: '21c842' },
@@ -47,19 +48,21 @@ const StyledColorTile = styled.div`
   }
 `;
 
-const ColorPicker = (props) => (
-  <PaletteContainer>
-    {colors.map((color) => (
-      <StyledColorTile
-        data-testid="tile"
-        hex={color.hex}
-        key={color.code}
-        onClick={() => props.onColorChange(color.hex)}
-        title={color.name}
-      />
-    ))}
-  </PaletteContainer>
-);
+function ColorPicker({ onColorChange }) {
+  return (
+    <PaletteContainer>
+      {colors.map((color) => (
+        <StyledColorTile
+          data-testid="tile"
+          hex={color.hex}
+          key={color.code}
+          onClick={() => onColorChange(color.hex)}
+          title={color.name}
+        />
+      ))}
+    </PaletteContainer>
+  );
+}
 
 ColorPicker.propTypes = {
   onColorChange: PropTypes.func,

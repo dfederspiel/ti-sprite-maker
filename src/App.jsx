@@ -53,6 +53,15 @@ const BackButton = styled(ThemeToggle)`
   left: 16px;
 `;
 
+const VersionTag = styled.span`
+  font-size: 0.6rem;
+  opacity: 0.5;
+  letter-spacing: 0;
+  position: absolute;
+  right: 16px;
+  bottom: 4px;
+`;
+
 const WorkArea = styled.div`
   display: flex;
   flex-direction: column;
@@ -150,6 +159,7 @@ function AppToolbar({ title, onBack }) {
       <ThemeToggle type="button" onClick={toggleTheme}>
         {themeName === 'classic' ? 'Dark' : 'Classic'}
       </ThemeToggle>
+      <VersionTag>{__BUILD_VERSION__}</VersionTag>
     </TitleBar>
   );
 }

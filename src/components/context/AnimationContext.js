@@ -143,7 +143,7 @@ const AnimationContext = () => {
     }
   }, [animations, currentAnimation]);
 
-  const newAnimation = useCallback((name = 'Untitled', gridSize) => {
+  const newAnimation = useCallback((name = 'Untitled', gridSize = 8) => {
     const anim = createAnimation({ name, gridSize });
     setCurrentAnimation(anim);
   }, [setCurrentAnimation]);

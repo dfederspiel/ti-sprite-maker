@@ -1,5 +1,5 @@
 import React, {
-  createContext, useContext, useState, useEffect, useCallback,
+  createContext, useContext, useState, useEffect, useCallback, useMemo,
 } from 'react';
 import PropTypes from 'prop-types';
 import { themes, themeNames } from '../../themes';
@@ -38,8 +38,13 @@ export function ThemeProvider({ children, defaultTheme = 'classic' }) {
     }
   }, []);
 
+  const value = useMemo(
+    () => ({ themeName, toggleTheme, setThemeName }),
+    [themeName, toggleTheme, setThemeName],
+  );
+
   return (
-    <ThemeCtx.Provider value={{ themeName, toggleTheme, setThemeName }}>
+    <ThemeCtx.Provider value={value}>
       {children}
     </ThemeCtx.Provider>
   );

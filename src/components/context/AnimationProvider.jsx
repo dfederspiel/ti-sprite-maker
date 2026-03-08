@@ -4,14 +4,14 @@ import AnimationContext from './AnimationContext';
 
 const animationContext = createContext(null);
 
-export const AnimationProvider = ({ children }) => {
+export function AnimationProvider({ children }) {
   const value = AnimationContext();
   return (
     <animationContext.Provider value={value}>
       {children}
     </animationContext.Provider>
   );
-};
+}
 
 AnimationProvider.propTypes = {
   children: PropTypes.oneOfType([

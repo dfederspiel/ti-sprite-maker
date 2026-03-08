@@ -1,25 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Block = ({ color, state, clicked }) => (
-  // eslint-disable-next-line jsx-a11y/control-has-associated-label
-  <button
-    type="button"
-    data-testid="block"
-    style={{
-      border: 'none',
-      backgroundColor: state ? `#${color}` : 'var(--ti-blockOff)',
-      width: '30px',
-      height: '30px',
-      margin: '2px',
-      transition: 'all .25s',
-    }}
-    className={state ? 'on' : 'off'}
-    onClick={() => {
-      clicked();
-    }}
-  />
-);
+function Block({ color, state, clicked }) {
+  return (
+    <button
+      type="button"
+      aria-label="sprite pixel"
+      data-testid="block"
+      style={{
+        border: 'none',
+        backgroundColor: state ? `#${color}` : 'var(--ti-blockOff)',
+        width: '30px',
+        height: '30px',
+        margin: '2px',
+        transition: 'all .25s',
+      }}
+      className={state ? 'on' : 'off'}
+      onClick={() => {
+        clicked();
+      }}
+    />
+  );
+}
 
 Block.propTypes = {
   /**

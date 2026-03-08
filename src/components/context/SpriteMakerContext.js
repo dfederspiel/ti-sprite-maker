@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 import { useState } from 'react';
 import SpriteMakerModule from './SpriteMakerModule';
 

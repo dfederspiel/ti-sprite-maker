@@ -141,7 +141,7 @@ export function exportToTIBasic(animation, startChar = 96) {
     lineNum += 10;
 
     const delay = Math.round(1000 / animation.frameRate);
-    animation.frames.forEach((frame, idx) => {
+    animation.frames.forEach((frame) => {
       const charCode = uniquePatterns.get(frame.chars[0].hex);
       lines.push(`${lineNum} CALL HCHAR(12,16,${charCode})`);
       lineNum += 10;

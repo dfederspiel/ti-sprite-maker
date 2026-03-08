@@ -1,22 +1,17 @@
-/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Block from './Block';
-import MenuStrip from './MenuStrip';
 import { useSpriteMaker } from '../context/SpriteMakerProvider';
 
-const SpriteMaker = () => {
+function SpriteMaker() {
   const spriteMaker = useSpriteMaker();
   return spriteMaker.blocks && (
-    <>
-      <div
-        style={{
-          justifyContent: 'center',
-        }}
-      >
-
-        <MenuStrip />
-        <div>
-          {spriteMaker.blocks
+    <div
+      style={{
+        justifyContent: 'center',
+      }}
+    >
+      <div>
+        {spriteMaker.blocks
             && spriteMaker.blocks.map((row, r) => (
               <div
                 key={r}
@@ -36,10 +31,9 @@ const SpriteMaker = () => {
                   ))}
               </div>
             ))}
-        </div>
       </div>
-    </>
+    </div>
   );
-};
+}
 
 export default SpriteMaker;
