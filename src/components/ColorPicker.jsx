@@ -25,13 +25,15 @@ const StyledColorTile = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
-  height: 75px;
+  font-size: 12px;
+  height: 40px;
   background-color: #${(props) => props.hex};
   flex: 1 1 20%;
+  cursor: pointer;
 
   @media screen and (min-width: 640px) {
-    flex: 0 0 ${100 / colors.length}%;
+    flex: 1 1 0;
+    font-size: 10px;
   }
 `;
 
