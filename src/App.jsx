@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import styled from 'styled-components';
 import SpriteMaker from './components/SpriteMaker';
 import './App.css';
@@ -8,6 +8,7 @@ import AnimationPlayer from './components/AnimationPlayer';
 import AnimationSelector from './components/AnimationSelector';
 import FrameEditor from './components/FrameEditor';
 import TIBasicExport from './components/TIBasicExport';
+import StartupScreen from './components/StartupScreen';
 import { SpriteMakerProvider, useSpriteMaker } from './components/context/SpriteMakerProvider';
 import { AnimationProvider, useAnimation } from './components/context/AnimationProvider';
 import { ThemeProvider, useTheme } from './components/context/ThemeContext';
@@ -32,6 +33,7 @@ const TitleBar = styled.div`
   align-items: center;
   justify-content: center;
   gap: 16px;
+  position: relative;
 `;
 
 const ThemeToggle = styled.button`
@@ -45,6 +47,11 @@ const ThemeToggle = styled.button`
   letter-spacing: 0;
 
   &:hover { background: var(--ti-btnHoverBg); }
+`;
+
+const BackButton = styled(ThemeToggle)`
+  position: absolute;
+  left: 16px;
 `;
 
 const WorkArea = styled.div`
@@ -130,27 +137,64 @@ const PanelPlaceholder = styled.div`
   padding: 20px 8px;
 `;
 
-function AppWrapper() {
-  const spriteMaker = useSpriteMaker();
-  const anim = useAnimation();
+function AppToolbar({ title, onBack }) {
   const { themeName, toggleTheme } = useTheme();
+
+  return (
+    <TitleBar>
+      {onBack && (
+        <BackButton type="button" onClick={onBack}>
+          QUIT
+        </BackButton>
+      )}
+      <span>{title}</span>
+      <ThemeToggle type="button" onClick={toggleTheme}>
+        {themeName === 'classic' ? 'Dark' : 'Classic'}
+      </ThemeToggle>
+    </TitleBar>
+  );
+}
+
+function SpriteEditorView({ onBack }) {
+  const spriteMaker = useSpriteMaker();
 
   const handleRandomize = () => {
     const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
     spriteMaker.setHex(genRanHex(16));
   };
 
+  return (
+    <Shell>
+      <AppToolbar title="SPRITE EDITOR" onBack={onBack} />
+      <WorkArea>
+        <CenterPanel>
+          <CanvasArea>
+            <HexDisplay>
+              {`CALL CHAR(123,"${spriteMaker.getHex()}")`}
+            </HexDisplay>
+            <SpriteMaker />
+            <ColorPicker onColorChange={(newColor) => spriteMaker.setColor(newColor)} />
+            <RandomizerControls onRandomize={handleRandomize} />
+          </CanvasArea>
+        </CenterPanel>
+      </WorkArea>
+    </Shell>
+  );
+}
+
+function AnimationStudioView({ onBack }) {
+  const anim = useAnimation();
   const hasAnimation = !!anim.currentAnimation;
+  const spriteMaker = useSpriteMaker();
+
+  const handleRandomize = () => {
+    const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+    spriteMaker.setHex(genRanHex(16));
+  };
 
   return (
     <Shell>
-      <TitleBar>
-        <span>TI-99/4A Sprite Maker</span>
-        <ThemeToggle type="button" onClick={toggleTheme}>
-          {themeName === 'classic' ? 'Dark' : 'Classic'}
-        </ThemeToggle>
-      </TitleBar>
-
+      <AppToolbar title="ANIMATION STUDIO" onBack={onBack} />
       <WorkArea>
         <LeftPanel>
           <AnimationSelector />
@@ -185,12 +229,38 @@ function AppWrapper() {
   );
 }
 
+function AppContent() {
+  const [screen, setScreen] = useState('startup');
+
+  const handleSelectApp = useCallback((appKey) => {
+    setScreen(appKey);
+  }, []);
+
+  const handleBack = useCallback(() => {
+    setScreen('startup');
+  }, []);
+
+  if (screen === 'startup') {
+    return <StartupScreen onSelectApp={handleSelectApp} />;
+  }
+
+  if (screen === 'sprite-editor') {
+    return <SpriteEditorView onBack={handleBack} />;
+  }
+
+  if (screen === 'animation-studio') {
+    return <AnimationStudioView onBack={handleBack} />;
+  }
+
+  return null;
+}
+
 function App() {
   return (
     <ThemeProvider defaultTheme="classic">
       <SpriteMakerProvider hex="00995a3c3c3c2424">
         <AnimationProvider>
-          <AppWrapper />
+          <AppContent />
         </AnimationProvider>
       </SpriteMakerProvider>
     </ThemeProvider>
