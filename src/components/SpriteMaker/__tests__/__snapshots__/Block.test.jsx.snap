@@ -27,7 +27,7 @@ exports[`the block > defaults to off 1`] = `
   <button
     class="off"
     data-testid="block"
-    style="background-color: rgb(26, 26, 46); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
+    style="background-color: var(--ti-blockOff); width: 30px; height: 30px; margin: 2px; transition: all .5s;"
     type="button"
   />
 </DocumentFragment>

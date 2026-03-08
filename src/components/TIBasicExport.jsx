@@ -14,12 +14,12 @@ const ExportContainer = styled.div`
 `;
 
 const CodeBlock = styled.pre`
-  background: #0a0a1a;
-  color: #40f0f0;
+  background: var(--ti-codeBg);
+  color: var(--ti-codeText);
   font-family: "TI", monospace;
   font-size: 10px;
   padding: 8px;
-  border: 1px solid #333;
+  border: 1px solid var(--ti-codeBorder);
   max-width: 100%;
   max-height: 180px;
   overflow: auto;
@@ -31,17 +31,17 @@ const CodeBlock = styled.pre`
 `;
 
 const TIButton = styled.button`
-  background-color: #2a2a4a;
-  border: 1px solid #444;
-  color: #ccc;
+  background-color: var(--ti-btnBg);
+  border: 1px solid var(--ti-btnBorder);
+  color: var(--ti-btnText);
   padding: 4px 8px;
   margin: 2px;
   cursor: pointer;
   font-family: "TI", sans-serif;
   font-size: 11px;
 
-  &:hover { background-color: #3a3a5a; color: #fff; }
-  &:active { background-color: #1a1a3a; }
+  &:hover { background-color: var(--ti-btnHoverBg); }
+  &:active { background-color: var(--ti-btnActiveBg); }
 `;
 
 const ButtonRow = styled.div`
@@ -52,9 +52,9 @@ const ButtonRow = styled.div`
 const SectionLabel = styled.div`
   font-size: 11px;
   font-family: "TI", sans-serif;
-  color: #40f0f0;
+  color: var(--ti-labelColor);
   margin: 8px 0 4px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--ti-labelBorder);
   padding-bottom: 2px;
   width: 100%;
   text-align: center;
@@ -62,7 +62,7 @@ const SectionLabel = styled.div`
 
 const CopiedBadge = styled.span`
   font-size: 10px;
-  color: #21c842;
+  color: var(--ti-copiedColor);
   margin-left: 6px;
 `;
 

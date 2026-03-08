@@ -6,91 +6,91 @@ exports[`the color picker > renders as expected 1`] = `
     class="sc-bRKDuR LIDcA"
   >
     <div
-      class="sc-hvigdm izHwBe"
+      class="sc-hvigdm kLpubF"
       data-testid="tile"
       hex="000000"
       title="Black"
     />
     <div
-      class="sc-hvigdm kmWEeU"
+      class="sc-hvigdm krJZMf"
       data-testid="tile"
       hex="21c842"
       title="Green"
     />
     <div
-      class="sc-hvigdm cMxhSy"
+      class="sc-hvigdm hCxzSl"
       data-testid="tile"
       hex="5edc78"
       title="Light Green"
     />
     <div
-      class="sc-hvigdm vdRua"
+      class="sc-hvigdm gakcQl"
       data-testid="tile"
       hex="5455ed"
       title="Blue"
     />
     <div
-      class="sc-hvigdm hFcrTd"
+      class="sc-hvigdm bwmzcS"
       data-testid="tile"
       hex="7d76fc"
       title="Light Blue"
     />
     <div
-      class="sc-hvigdm dnnNeh"
+      class="sc-hvigdm bDtGYS"
       data-testid="tile"
       hex="d4524d"
       title="Dark Red"
     />
     <div
-      class="sc-hvigdm ELeCI"
+      class="sc-hvigdm cjKeMP"
       data-testid="tile"
       hex="42ebf5"
       title="Cyan"
     />
     <div
-      class="sc-hvigdm beiQfa"
+      class="sc-hvigdm fwMdpB"
       data-testid="tile"
       hex="fc5554"
       title="Red"
     />
     <div
-      class="sc-hvigdm gjgmgP"
+      class="sc-hvigdm gdKEpg"
       data-testid="tile"
       hex="ff7978"
       title="Light Red"
     />
     <div
-      class="sc-hvigdm iCfWqJ"
+      class="sc-hvigdm hzzTuq"
       data-testid="tile"
       hex="d4c154"
       title="Dark Yellow"
     />
     <div
-      class="sc-hvigdm hemYzj"
+      class="sc-hvigdm dzPSDk"
       data-testid="tile"
       hex="e6ce80"
       title="Light Yellow"
     />
     <div
-      class="sc-hvigdm upNaq"
+      class="sc-hvigdm dmaZqd"
       data-testid="tile"
       hex="21b03b"
       title="Dark Green"
     />
     <div
-      class="sc-hvigdm kMZHGE"
+      class="sc-hvigdm eFFcZH"
       data-testid="tile"
       hex="c95bba"
       title="Magenta"
     />
     <div
-      class="sc-hvigdm hypIeq"
+      class="sc-hvigdm etpEqt"
       data-testid="tile"
       hex="cccccc"
       title="Gray"
     />
     <div
-      class="sc-hvigdm eWluqG"
+      class="sc-hvigdm jExdJh"
       data-testid="tile"
       hex="ffffff"
       title="White"

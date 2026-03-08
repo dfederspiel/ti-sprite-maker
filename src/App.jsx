@@ -10,38 +10,41 @@ import FrameEditor from './components/FrameEditor';
 import TIBasicExport from './components/TIBasicExport';
 import { SpriteMakerProvider, useSpriteMaker } from './components/context/SpriteMakerProvider';
 import { AnimationProvider, useAnimation } from './components/context/AnimationProvider';
-
-/*
- * Desktop (>=768px):
- * ┌───────────────────────────────────────────────────┐
- * │              TI-99/4A SPRITE MAKER                │
- * ├──────────┬─────────────────────────┬──────────────┤
- * │ EXAMPLES │    8x8 SPRITE GRID      │  ANIMATION   │
- * │          │    hex output            │  player      │
- * │ SAVED    │    palette               │  transport   │
- * │          │    randomizer            │  frame tools │
- * │ CREATE   │                          │  export      │
- * └──────────┴─────────────────────────┴──────────────┘
- *
- * Mobile (<768px): single column, stacked.
- */
+import { ThemeProvider, useTheme } from './components/context/ThemeContext';
 
 const Shell = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #1a1a2e;
+  background: var(--ti-shellBg);
 `;
 
 const TitleBar = styled.div`
-  background: #0f0f23;
-  border-bottom: 2px solid #40f0f0;
+  background: var(--ti-titleBarBg);
+  border-bottom: 2px solid var(--ti-titleBarBorder);
   padding: 8px 16px;
   font-family: "TI", sans-serif;
   font-size: 18px;
-  color: #40f0f0;
+  color: var(--ti-titleBarText);
   text-align: center;
   letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+`;
+
+const ThemeToggle = styled.button`
+  background: var(--ti-btnBg);
+  border: 1px solid var(--ti-btnBorder);
+  color: var(--ti-btnText);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: "TI", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0;
+
+  &:hover { background: var(--ti-btnHoverBg); }
 `;
 
 const WorkArea = styled.div`
@@ -62,8 +65,8 @@ const WorkArea = styled.div`
 `;
 
 const Panel = styled.div`
-  background: #16213e;
-  border: 1px solid #333;
+  background: var(--ti-panelBg);
+  border: 1px solid var(--ti-panelBorder);
   border-radius: 2px;
   padding: 8px;
   width: 100%;
@@ -102,26 +105,35 @@ const CanvasArea = styled(Panel)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #0f0f23;
-  border-color: #444;
+  background: var(--ti-canvasBg);
+  border-color: var(--ti-canvasBorder);
   padding: 12px;
 `;
 
 const HexDisplay = styled.div`
   font-family: "TI", monospace;
   font-size: 12px;
-  background: #000;
-  color: #40f0f0;
+  background: var(--ti-hexBg);
+  color: var(--ti-hexText);
   padding: 4px 10px;
-  border: 1px solid #40f0f0;
+  border: 1px solid var(--ti-hexBorder);
   margin: 6px 0;
   word-break: break-all;
   text-align: center;
 `;
 
+const PanelPlaceholder = styled.div`
+  color: var(--ti-placeholderText);
+  font-family: "TI", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 8px;
+`;
+
 function AppWrapper() {
   const spriteMaker = useSpriteMaker();
   const anim = useAnimation();
+  const { themeName, toggleTheme } = useTheme();
 
   const handleRandomize = () => {
     const genRanHex = (size) => [...Array(size)].map(() => Math.floor(Math.random() * 16).toString(16)).join('');
@@ -132,7 +144,12 @@ function AppWrapper() {
 
   return (
     <Shell>
-      <TitleBar>TI-99/4A Sprite Maker</TitleBar>
+      <TitleBar>
+        <span>TI-99/4A Sprite Maker</span>
+        <ThemeToggle type="button" onClick={toggleTheme}>
+          {themeName === 'classic' ? 'Dark' : 'Classic'}
+        </ThemeToggle>
+      </TitleBar>
 
       <WorkArea>
         <LeftPanel>
@@ -168,21 +185,15 @@ function AppWrapper() {
   );
 }
 
-const PanelPlaceholder = styled.div`
-  color: #666;
-  font-family: "TI", sans-serif;
-  font-size: 11px;
-  text-align: center;
-  padding: 20px 8px;
-`;
-
 function App() {
   return (
-    <SpriteMakerProvider hex="00995a3c3c3c2424">
-      <AnimationProvider>
-        <AppWrapper />
-      </AnimationProvider>
-    </SpriteMakerProvider>
+    <ThemeProvider defaultTheme="classic">
+      <SpriteMakerProvider hex="00995a3c3c3c2424">
+        <AnimationProvider>
+          <AppWrapper />
+        </AnimationProvider>
+      </SpriteMakerProvider>
+    </ThemeProvider>
   );
 }
 

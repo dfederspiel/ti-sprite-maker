@@ -12,9 +12,9 @@ const SelectorContainer = styled.div`
 `;
 
 const TIButton = styled.button`
-  background-color: #2a2a4a;
-  border: 1px solid #444;
-  color: #ccc;
+  background-color: var(--ti-btnBg);
+  border: 1px solid var(--ti-btnBorder);
+  color: var(--ti-btnText);
   padding: 4px 8px;
   margin: 2px;
   cursor: pointer;
@@ -23,14 +23,14 @@ const TIButton = styled.button`
   min-width: 0;
   flex: 1 1 auto;
 
-  &:hover { background-color: #3a3a5a; color: #fff; }
-  &:active { background-color: #1a1a3a; }
+  &:hover { background-color: var(--ti-btnHoverBg); }
+  &:active { background-color: var(--ti-btnActiveBg); }
 `;
 
 const ActiveButton = styled(TIButton)`
-  background-color: #0a3a3a;
-  border-color: #40f0f0;
-  color: #40f0f0;
+  background-color: var(--ti-btnActiveSel);
+  border-color: var(--ti-btnActiveSelBorder);
+  color: var(--ti-btnActiveSelText);
   font-weight: bold;
 `;
 
@@ -45,9 +45,9 @@ const ButtonRow = styled.div`
 const SectionLabel = styled.div`
   font-size: 11px;
   font-family: "TI", sans-serif;
-  color: #40f0f0;
+  color: var(--ti-labelColor);
   margin: 8px 0 4px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--ti-labelBorder);
   padding-bottom: 2px;
   width: 100%;
   text-align: center;
@@ -56,9 +56,9 @@ const SectionLabel = styled.div`
 const TIInput = styled.input`
   font-family: "TI", sans-serif;
   font-size: 11px;
-  border: 1px solid #444;
-  background: #0f0f23;
-  color: #e0e0e0;
+  border: 1px solid var(--ti-inputBorder);
+  background: var(--ti-inputBg);
+  color: var(--ti-inputText);
   padding: 4px 8px;
   margin: 2px;
   width: 100%;

@@ -35,11 +35,11 @@ const StyledColorTile = styled.div`
   height: 28px;
   background-color: #${(props) => props.hex};
   cursor: pointer;
-  border: 2px solid #333;
+  border: 2px solid var(--ti-tileBorder);
   box-sizing: border-box;
 
   &:hover {
-    border-color: #fff;
+    border-color: var(--ti-tileHoverBorder);
     transform: scale(1.15);
   }
 
@@ -64,11 +64,6 @@ const ColorPicker = (props) => (
 );
 
 ColorPicker.propTypes = {
-  /**
-   * callback that returns the hex string
-   * @param callback
-   * @returns string
-   */
   onColorChange: PropTypes.func,
 };
 

@@ -3,11 +3,11 @@
   src: url(./ti-1.ttf) format("truetype");
 }
 body {
-  color: #e0e0e0;
   font-family: "TI", sans-serif;
   margin: 0;
   padding: 0;
-  background: #1a1a2e;
+  background: var(--ti-shellBg);
+  color: var(--ti-textPrimary);
 }
 
 .app {
