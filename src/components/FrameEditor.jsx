@@ -14,14 +14,16 @@ const EditorContainer = styled.div`
 
 const ButtonRow = styled.div`
   display: flex;
-  gap: 4px;
+  gap: 3px;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 `;
 
 const TIButton = styled.button`
-  background-color: #cccccc;
-  border: 2px solid #000000;
+  background-color: #2a2a4a;
+  border: 1px solid #444;
+  color: #ccc;
   padding: 4px 8px;
   margin: 2px;
   cursor: pointer;
@@ -30,13 +32,24 @@ const TIButton = styled.button`
   min-width: 0;
   flex: 1 1 auto;
 
-  &:hover { background-color: #ffffff; }
-  &:active { background-color: #999999; }
-  &:disabled { background-color: #888888; cursor: not-allowed; opacity: 0.5; }
+  &:hover { background-color: #3a3a5a; color: #fff; }
+  &:active { background-color: #1a1a3a; }
+  &:disabled { background-color: #1a1a2e; color: #555; cursor: not-allowed; }
 `;
 
 const DangerButton = styled(TIButton)`
-  &:hover { background-color: #ff6666; color: white; }
+  &:hover { background-color: #5a2020; color: #ff6666; }
+`;
+
+const SectionLabel = styled.div`
+  font-size: 11px;
+  font-family: "TI", sans-serif;
+  color: #40f0f0;
+  margin: 8px 0 4px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 2px;
+  width: 100%;
+  text-align: center;
 `;
 
 function FrameEditor() {
@@ -61,13 +74,11 @@ function FrameEditor() {
   };
 
   const handleCapture = () => {
-    // Capture whatever is currently in the sprite editor as a new frame
     const hex = spriteMaker.getHex();
     anim.addFrame(hex);
   };
 
   const handleUpdateFromEditor = () => {
-    // Push the current editor state into the current frame
     const hex = spriteMaker.getHex();
     anim.updateCurrentFrameHex(hex);
   };
@@ -78,6 +89,7 @@ function FrameEditor() {
 
   return (
     <EditorContainer>
+      <SectionLabel>Frame Tools</SectionLabel>
       <ButtonRow>
         <TIButton type="button" onClick={handleCapture} disabled={isPlaying}>
           + Capture
@@ -88,6 +100,8 @@ function FrameEditor() {
         <TIButton type="button" onClick={handleAddBlank} disabled={isPlaying}>
           + Blank
         </TIButton>
+      </ButtonRow>
+      <ButtonRow>
         <TIButton type="button" onClick={handleUpdateFromEditor} disabled={isPlaying || !totalFrames}>
           Update
         </TIButton>

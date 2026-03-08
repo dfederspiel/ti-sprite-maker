@@ -3,113 +3,98 @@
 exports[`the color picker > renders as expected 1`] = `
 <DocumentFragment>
   <div
-    style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%;"
+    class="sc-bRKDuR LIDcA"
   >
     <div
-      class="sc-bRKDuR eHxJGB"
+      class="sc-hvigdm izHwBe"
       data-testid="tile"
       hex="000000"
-    >
-      Black
-    </div>
+      title="Black"
+    />
     <div
-      class="sc-bRKDuR yQRbr"
+      class="sc-hvigdm kmWEeU"
       data-testid="tile"
       hex="21c842"
-    >
-      Green
-    </div>
+      title="Green"
+    />
     <div
-      class="sc-bRKDuR foUlPp"
+      class="sc-hvigdm cMxhSy"
       data-testid="tile"
       hex="5edc78"
-    >
-      Light Green
-    </div>
+      title="Light Green"
+    />
     <div
-      class="sc-bRKDuR gtmgvh"
+      class="sc-hvigdm vdRua"
       data-testid="tile"
       hex="5455ed"
-    >
-      Blue
-    </div>
+      title="Blue"
+    />
     <div
-      class="sc-bRKDuR jyafpa"
+      class="sc-hvigdm hFcrTd"
       data-testid="tile"
       hex="7d76fc"
-    >
-      Light Blue
-    </div>
+      title="Light Blue"
+    />
     <div
-      class="sc-bRKDuR kRBpRa"
+      class="sc-hvigdm dnnNeh"
       data-testid="tile"
       hex="d4524d"
-    >
-      Dark Red
-    </div>
+      title="Dark Red"
+    />
     <div
-      class="sc-bRKDuR iSBUvv"
+      class="sc-hvigdm ELeCI"
       data-testid="tile"
       hex="42ebf5"
-    >
-      Cyan
-    </div>
+      title="Cyan"
+    />
     <div
-      class="sc-bRKDuR DheBt"
+      class="sc-hvigdm beiQfa"
       data-testid="tile"
       hex="fc5554"
-    >
-      Red
-    </div>
+      title="Red"
+    />
     <div
-      class="sc-bRKDuR bhkiMs"
+      class="sc-hvigdm gjgmgP"
       data-testid="tile"
       hex="ff7978"
-    >
-      Light Red
-    </div>
+      title="Light Red"
+    />
     <div
-      class="sc-bRKDuR ijIyi"
+      class="sc-hvigdm iCfWqJ"
       data-testid="tile"
       hex="d4c154"
-    >
-      Dark Yellow
-    </div>
+      title="Dark Yellow"
+    />
     <div
-      class="sc-bRKDuR eILkIo"
+      class="sc-hvigdm hemYzj"
       data-testid="tile"
       hex="e6ce80"
-    >
-      Light Yellow
-    </div>
+      title="Light Yellow"
+    />
     <div
-      class="sc-bRKDuR bWLidp"
+      class="sc-hvigdm upNaq"
       data-testid="tile"
       hex="21b03b"
-    >
-      Dark Green
-    </div>
+      title="Dark Green"
+    />
     <div
-      class="sc-bRKDuR hxipYT"
+      class="sc-hvigdm kMZHGE"
       data-testid="tile"
       hex="c95bba"
-    >
-      Magenta
-    </div>
+      title="Magenta"
+    />
     <div
-      class="sc-bRKDuR jAtIGl"
+      class="sc-hvigdm hypIeq"
       data-testid="tile"
       hex="cccccc"
-    >
-      Gray
-    </div>
+      title="Gray"
+    />
     <div
-      class="sc-bRKDuR giIpUd"
+      class="sc-hvigdm eWluqG"
       data-testid="tile"
       hex="ffffff"
-    >
-      White
-    </div>
+      title="White"
+    />
   </div>
 </DocumentFragment>
 `;

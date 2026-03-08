@@ -10,7 +10,7 @@ const PixelBlock = styled.div.withConfig({
 })`
   width: 4px;
   height: 4px;
-  background-color: ${(props) => (props.filled ? '#000000' : 'transparent')};
+  background-color: ${(props) => (props.filled ? '#40f0f0' : 'transparent')};
   border: none;
 `;
 
@@ -24,25 +24,26 @@ const IconGrid = styled.div`
 `;
 
 const TIButton = styled.button`
-  background-color: #cccccc;
-  border: 2px solid #000000;
+  background-color: #2a2a4a;
+  border: 1px solid #444;
+  color: #ccc;
   padding: 4px;
-  margin: 4px;
+  margin: 3px;
   cursor: pointer;
   font-family: "TI", sans-serif;
   font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 60px;
+  min-width: 50px;
 
-  &:hover { background-color: #ffffff; }
-  &:active { background-color: #999999; }
-  &:disabled { background-color: #888888; cursor: not-allowed; opacity: 0.5; }
+  &:hover { background-color: #3a3a5a; color: #fff; }
+  &:active { background-color: #1a1a3a; }
+  &:disabled { background-color: #1a1a2e; color: #555; cursor: not-allowed; }
 `;
 
 const SmallButton = styled(TIButton)`
-  min-width: 40px;
+  min-width: 32px;
   padding: 2px 6px;
   font-size: 11px;
 `;
@@ -51,32 +52,35 @@ const SliderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4px 8px;
+  margin: 4px 0;
   font-family: "TI", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
+  color: #aaa;
 `;
 
 const TISlider = styled.input`
   -webkit-appearance: none;
-  width: 160px;
-  height: 8px;
-  background: #cccccc;
-  border: 2px solid #000000;
+  width: 100%;
+  max-width: 200px;
+  height: 6px;
+  background: #333;
+  border: 1px solid #555;
   outline: none;
   margin: 4px 0;
 
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    background: #000000;
+    width: 14px;
+    height: 14px;
+    background: #40f0f0;
     cursor: pointer;
   }
   &::-moz-range-thumb {
-    width: 16px;
-    height: 16px;
-    background: #000000;
+    width: 14px;
+    height: 14px;
+    background: #40f0f0;
     cursor: pointer;
+    border: none;
   }
 `;
 
@@ -84,11 +88,7 @@ const PlayerContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4px 0;
   font-family: "TI", sans-serif;
-  border: 2px solid #000000;
-  background: #e0e0e0;
-  padding: 8px;
   width: 100%;
   box-sizing: border-box;
 `;
@@ -98,13 +98,15 @@ const TransportBar = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 2px;
+  margin: 4px 0;
 `;
 
 const FrameIndicator = styled.div`
-  font-size: 14px;
-  margin: 4px 0;
+  font-size: 12px;
+  margin: 2px 0;
   font-family: "TI", sans-serif;
+  color: #aaa;
 `;
 
 const FilmStrip = styled.div`
@@ -112,8 +114,8 @@ const FilmStrip = styled.div`
   gap: 2px;
   margin: 4px 0;
   padding: 4px;
-  background: #333;
-  border: 2px solid #000;
+  background: #0a0a1a;
+  border: 1px solid #333;
   overflow-x: auto;
   max-width: 100%;
   box-sizing: border-box;
@@ -126,7 +128,7 @@ const Thumbnail = styled.div.withConfig({
   height: 32px;
   min-width: 32px;
   cursor: pointer;
-  border: 2px solid ${(props) => (props.active ? '#ffff00' : '#666')};
+  border: 2px solid ${(props) => (props.active ? '#40f0f0' : '#333')};
   background: #000;
   display: grid;
   grid-template-columns: repeat(8, 4px);
@@ -143,9 +145,14 @@ const ThumbPixel = styled.div.withConfig({
 `;
 
 const SectionLabel = styled.div`
-  font-size: 12px;
+  font-size: 11px;
   font-family: "TI", sans-serif;
+  color: #40f0f0;
   margin: 4px 0 2px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 2px;
+  width: 100%;
+  text-align: center;
 `;
 
 // --- Icons ---
@@ -185,7 +192,6 @@ function PauseIcon() {
   );
 }
 
-// Render a thumbnail of a hex pattern
 const spriteMakerInstance = new SpriteMakerModule();
 
 function FrameThumbnail({ hex, active, onClick }) {
@@ -215,20 +221,17 @@ function AnimationPlayer() {
     goToFrame,
   } = anim;
 
-  // Sync current animation frame to the sprite editor
   const syncFrameToEditor = useCallback(() => {
     const hex = anim.getCurrentHex();
     spriteMaker.setHex(hex);
   }, [anim, spriteMaker]);
 
-  // When frame index or animation changes, sync to editor
   useEffect(() => {
     if (currentAnimation) {
       syncFrameToEditor();
     }
   }, [currentAnimation, currentFrameIndex]);
 
-  // Playback interval
   useEffect(() => {
     if (isPlaying && currentAnimation) {
       const currentFrame = currentAnimation.frames[currentFrameIndex];

@@ -3,22 +3,14 @@
   src: url(./ti-1.ttf) format("truetype");
 }
 body {
-  color: black;
+  color: #e0e0e0;
   font-family: "TI", sans-serif;
   margin: 0;
   padding: 0;
+  background: #1a1a2e;
 }
 
 .app {
   text-align: center;
-}
-
-.app-header {
-  background-color: #40f0f0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  padding: 0;
 }

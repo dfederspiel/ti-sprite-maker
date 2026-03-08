@@ -21,42 +21,46 @@ const colors = [
   { name: 'White', code: 15, hex: 'ffffff' },
 ];
 
-const StyledColorTile = styled.div`
+const PaletteContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  height: 40px;
+  gap: 2px;
+  padding: 6px 0;
+  width: 100%;
+`;
+
+const StyledColorTile = styled.div`
+  width: 28px;
+  height: 28px;
   background-color: #${(props) => props.hex};
-  flex: 1 1 20%;
   cursor: pointer;
+  border: 2px solid #333;
+  box-sizing: border-box;
+
+  &:hover {
+    border-color: #fff;
+    transform: scale(1.15);
+  }
 
   @media screen and (min-width: 640px) {
-    flex: 1 1 0;
-    font-size: 10px;
+    width: 24px;
+    height: 24px;
   }
 `;
 
 const ColorPicker = (props) => (
-  <div
-    style={{
-      display: 'flex',
-      flexWrap: 'wrap',
-      justifyContent: 'center',
-      width: '100%',
-    }}
-  >
+  <PaletteContainer>
     {colors.map((color) => (
       <StyledColorTile
         data-testid="tile"
         hex={color.hex}
         key={nanoid()}
         onClick={() => props.onColorChange(color.hex)}
-      >
-        {color.name}
-      </StyledColorTile>
+        title={color.name}
+      />
     ))}
-  </div>
+  </PaletteContainer>
 );
 
 ColorPicker.propTypes = {

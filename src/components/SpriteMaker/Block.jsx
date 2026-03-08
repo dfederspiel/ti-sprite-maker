@@ -8,7 +8,7 @@ const Block = ({ color, state, clicked }) => (
     data-testid="block"
     style={{
       border: 'none',
-      backgroundColor: state ? `#${color}` : 'white',
+      backgroundColor: state ? `#${color}` : '#1a1a2e',
       width: '30px',
       height: '30px',
       margin: '2px',
